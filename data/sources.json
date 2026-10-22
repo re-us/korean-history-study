@@ -1,0 +1,110 @@
+{
+  "description": "사용자가 제공한 문제지·공식 정답표. 핵심 정리와 보기별 해설은 자체 작성한 학습 자료이며 공식 해설이 아닙니다.",
+  "files": [
+    {
+      "name": "70회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "4e9195f278bfdb5223cef43d60ff3bb1d55f09e4db0af803476392b08acc978c"
+    },
+    {
+      "name": "70회 한국사_정답지(심화).pdf",
+      "pages": 1,
+      "sha256": "06b1ae9f5e8a33b8b9cd5c3f5d3c4d0acd6049e31a4a4b45a38658c574a252c1"
+    },
+    {
+      "name": "71회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "4faa9016aa092da3684782b3c46f7ba04165c954649334ad5ba9956f4399c4a6"
+    },
+    {
+      "name": "73회 심화 문제지.pdf",
+      "pages": 12,
+      "sha256": "d6ad706f1bd7ce3a0b18d7b7cdda9439d10b7b712121428b21af2c31268c4836"
+    },
+    {
+      "name": "73회 심화 정답표 (1).pdf",
+      "pages": 1,
+      "sha256": "0dfeee4af303493e95a3a30c7f7cd890377f067789bdb7c00a9cc90af15c6347"
+    },
+    {
+      "name": "73회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "0dfeee4af303493e95a3a30c7f7cd890377f067789bdb7c00a9cc90af15c6347"
+    },
+    {
+      "name": "74회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "db21586adfbe6df757b51a87eb0824cb414379cbe8f984c8fe1709e5b3643b46"
+    },
+    {
+      "name": "74회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "7d7322d680119d7b7b89c7465edc1dd8d0f06e8180594aff69b7d34502a44c79"
+    },
+    {
+      "name": "76회 한국사_답지(심화)).pdf",
+      "pages": 1,
+      "sha256": "9da8824061aa649e0c1246edc70bf86cb29273cbe24eabf11b636123d3c9e98b"
+    },
+    {
+      "name": "76회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "b25c8617eb817711a54e69c09040298bf1b102f59fe29aebaad3558981e834f3"
+    },
+    {
+      "name": "77회 한국사_답지(심화).pdf",
+      "pages": 1,
+      "sha256": "71b9b6ef633f0e70b6a9b3c4565ec2f02a1ba2ef5f805f34d77d41427913b304"
+    },
+    {
+      "name": "77회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "c3ff51d9273f7812a2b84d7fac4e8e1cb9aa642e80a4f53ebfc2a8afc5503e88"
+    },
+    {
+      "name": "78회 한국사_답지(심화).pdf",
+      "pages": 1,
+      "sha256": "a8e8513c5d73ae81594460354a7b8a83ddaec9894001ff66cecae40f4d280638"
+    },
+    {
+      "name": "78회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "7d96d41c1686c5b3ea3c533d76fbb23235c44d8e55f53e81a320e31cf914fba0"
+    },
+    {
+      "name": "79회 한국사_답지(심화).pdf",
+      "pages": 1,
+      "sha256": "ea380c4a1f4f24ebd4c95ad171aa7ace3fc0654284fbe2d7be4d5b1f675ec393"
+    },
+    {
+      "name": "79회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "fa82e6c8977670c1b55778b061e33ee367c55cd3f8707806f63d70d8353453d7"
+    },
+    {
+      "name": "제71회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "d412bab448e17d15d0cfd71d6c98a524c109157362b854316d55b280ee6a2a4e"
+    },
+    {
+      "name": "제72회 심화 문제지.pdf",
+      "pages": 12,
+      "sha256": "87307e726a2605000a087b3c97ec2bae8e4c079ca2a2ef2b567cc9a4a415b9b5"
+    },
+    {
+      "name": "제72회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "9f71656a1dfa110393e5097d3712c708e498470b3355ce680543ea959a59bfc7"
+    },
+    {
+      "name": "제75회 심화 문제지.pdf",
+      "pages": 12,
+      "sha256": "2af5466f3be54d75eb65098f042f5f9c56de01fd213a71dfbe460ea222cc137e"
+    },
+    {
+      "name": "제75회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "9ecff7c82b2f0343d3e6fd9dec389431411257e00fd8a53b11d519cb58c5dad1"
+    }
+  ]
+}
