@@ -12,6 +12,9 @@ from PIL import Image, ImageChops
 
 ROOT = Path(__file__).resolve().parents[1]
 CACHE = ROOT / 'tmp' / 'pdfs'
+round_arg=next((arg.split('=',1)[1] for arg in sys.argv if arg.startswith('--rounds=')),'70-79')
+first_round,last_round=map(int,round_arg.split('-'))
+EXAMS=range(first_round,last_round+1)
 
 def write_json(path, value):
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -19,7 +22,7 @@ def write_json(path, value):
 
 def sources():
     manifest = json.loads((CACHE / 'manifest.json').read_text(encoding='utf-8'))
-    return {r: next(m for m in manifest if str(r) in m['name'] and m['pages'] > 1) for r in range(70, 80)}
+    return {r: next(m for m in manifest if re.match(r'^(?:제)?'+str(r)+r'회',m['name']) and m['pages'] > 1) for r in EXAMS}
 
 def prepare():
     for exam, source in sources().items():
@@ -74,21 +77,22 @@ def make_lines(words):
         g.update(text=text, x=min(w['x'] for w in row), y=min(w['y'] for w in row), bottom=max(w['y']+w['h'] for w in row))
     return sorted(groups, key=lambda g:g['y'])
 
-def answer_keys():
+def answer_keys(exams=EXAMS):
     manifest=json.loads((CACHE/'manifest.json').read_text(encoding='utf8'))
     keys={}
-    for exam in range(70,80):
+    for exam in exams:
         items=[m for m in manifest if str(exam) in m['name'] and m['pages']==1]
         parsed=[]
         for item in items:
             text=pdfium.PdfDocument(item['path'])[0].get_textpage().get_text_range()
             rows={}
             for line in text.splitlines():
-                cells=re.findall(r'(?<!\d)(\d{1,2})\s+([①②③④⑤1-5])\s+([123])(?=\s|$)',line)
+                cells=re.findall(r'(?<!\d)(\d{1,2})\s+([①②③④⑤1-5]|없음)\s+([123])(?=\s|$)',line)
                 if len(cells)!=5:
                     continue
                 for n,answer,points in cells:
-                    rows[int(n)]={'correct_option':SYMBOLS.index(answer)+1 if answer in SYMBOLS else int(answer),'points':int(points)}
+                    rows[int(n)]={'correct_option':None if answer=='없음' else SYMBOLS.index(answer)+1 if answer in SYMBOLS else int(answer),'points':int(points)}
+                    if answer=='없음':rows[int(n)].update(accept_all=True,answer_notice='공식 정정: 정답 없음·응시자 전원 정답 처리')
             assert sorted(rows)==list(range(1,51)), (exam,'answer count',len(rows))
             assert sum(r['points'] for r in rows.values())==100,(exam,'points')
             parsed.append(rows)
@@ -100,16 +104,16 @@ def answer_keys():
 def extract():
     keys=answer_keys()
     geometry=json.loads((ROOT/'scripts/exam_geometry.json').read_text(encoding='utf8'))
-    all_questions={}
+    all_questions=json.loads((CACHE/'extracted.json').read_text(encoding='utf8')) if (CACHE/'extracted.json').exists() else {}
     issues=[]
-    for exam in range(70,80):
+    for exam in EXAMS:
         questions=[]
         pdf=pdfium.PdfDocument(sources()[exam]['path'])
-        for page in range(1,13):
+        for page in range(1,len(pdf)+1):
             words,width,height,scanned=page_words(exam,page)
             textpage=pdf[page-1].get_textpage()
             mid=width/2
-            for left,right in [(40,mid-8),(mid+8,width-40)]:
+            for left,right in [(40,mid-8),(mid+(0 if width>740 else 8),width-40)]:
                 col=[w for w in words if left<=w['x']<right and w['y']>70 and w['y']<height-45]
                 lines=make_lines(col)
                 starts=[]
@@ -118,8 +122,12 @@ def extract():
                     if not m and scanned:
                         m=re.match(r'^(\d{1,2})\s+(?=[(가나다밑다교])',line['text'])
                     n=int(re.sub(r'\s','',m[1])) if m else 0
-                    if m and line['x']<left+14 and 1<=n<=50:
+                    if m and line['x']<left+26 and 1<=n<=50:
                         starts.append((n,line))
+                if exam==60 and page==3 and left>300:
+                    missing=min(lines,key=lambda l:abs(l['y']-630))
+                    starts.append((12,{**missing,'text':'12. '+missing['text']}))
+                    starts.sort(key=lambda item:item[1]['y'])
                 for j,(n,line) in enumerate(starts):
                     top=line['y']-2
                     bottom=starts[j+1][1]['y']-15 if j+1<len(starts) else height-53
@@ -155,14 +163,22 @@ def extract():
                         groups=[markers[k:k+5] for k in range(len(markers)-4) if [x['number'] for x in markers[k:k+5]]==[1,2,3,4,5]]
                         markers=groups[-1] if groups else markers
                     else:
-                        candidate_lines=[l for l in section if l['y']>material_top and l['x']<left+31 and len(l['text'])>5]
+                        candidate_lines=[l for l in section if l['y']>material_top and l['x']<left+45 and len(l['text'])>5]
                         tail=candidate_lines[-5:]
                         if len(tail)==5 and all(15 < tail[k+1]['y']-tail[k]['y'] < 45 for k in range(4)):
                             markers=[dict(x=l['x'],y=l['y'],w=10,h=l['bottom']-l['y'],text=l['text'],number=0) for l in tail]
                         elif len(markers)>=5:
                             markers=markers[-5:]
                         for k,w in enumerate(markers):w['number']=k+1
+                    circles_path=CACHE/f'{exam}-{page:02}.circles.json'
+                    if scanned and circles_path.exists():
+                        circles=json.loads(circles_path.read_text(encoding='utf8'))
+                        found=sorted([c for c in circles if left<c['x']<right and material_top<c['y']<bottom],key=lambda c:(round(c['y']/12),c['x']))
+                        groups=[found[k:k+5] for k in range(len(found)-4) if [x['number'] for x in found[k:k+5]]==[1,2,3,4,5]]
+                        if groups:markers=groups[-1]
                     override=geometry.get(f'{exam}-{n}',{})
+                    if override.get('option_markers'):
+                        markers=[dict(x=x,y=y,w=10,h=12,text=SYMBOLS[k],number=k+1) for k,(x,y) in enumerate(override['option_markers'])]
                     if override.get('photo_rows'):
                         markers=[dict(x=x,y=row[0],w=10,h=12,text=SYMBOLS[k],number=k+1) for k,(row,x) in enumerate((row,x) for row in override['photo_rows'] for x in row[1:])]
                     elif override.get('horizontal'):
@@ -189,7 +205,7 @@ def extract():
                     if override.get('labels'):
                         options=[dict(number=k+1,text=t,image=None) for k,t in enumerate(override['labels'])]
                         is_photo=False
-                    if override.get('combination'):
+                    if override.get('combination') and not override.get('labels'):
                         options=[dict(number=k+1,text=t,image=None) for k,t in enumerate(['(가) - (나) - (다)','(가) - (다) - (나)','(나) - (가) - (다)','(나) - (다) - (가)','(다) - (가) - (나)'])]
                         is_photo=False
                     material_bottom=min((w['y'] for w in markers),default=bottom)-7
@@ -201,7 +217,7 @@ def extract():
         nums=[q['question_number'] for q in questions]
         if sorted(nums)!=list(range(1,51)):
             issues.append([exam,'question numbers',sorted(nums)])
-        all_questions[exam]=sorted(questions,key=lambda q:q['question_number'])
+        all_questions[str(exam)]=sorted(questions,key=lambda q:q['question_number'])
         print(exam,len(questions),'questions',flush=True)
     write_json(CACHE/'extracted.json',all_questions)
     write_json(CACHE/'issues.json',issues)
@@ -225,25 +241,29 @@ def export():
     data=json.loads((CACHE/'extracted.json').read_text(encoding='utf8'))
     geometry=json.loads((ROOT/'scripts/exam_geometry.json').read_text(encoding='utf8'))
     for exam,questions in data.items():
+        if int(exam) not in EXAMS:continue
         out=[]
         images={}
         for q in questions:
             n=q['question_number'];page=q['source_page']
             if page not in images:images[page]=Image.open(CACHE/f'{exam}-{page:02}.png')
-            im=images[page];scale=im.width/728.504
+            im=images[page]
+            page_width=json.loads((CACHE/f'{exam}-{page:02}.text.json').read_text(encoding='utf8'))['width']
+            scale=im.width/page_width
             folder=ROOT/'assets/exams'/exam
             public={k:v for k,v in q.items() if not k.startswith('_')}
             title=q['question_text']
             replacements={'옳은것은':'옳은 것은','적절한것은':'적절한 것은','볼수':'볼 수','시가에':"시기'에",'적절하지 않읕':'적절하지 않은','적절하지 않음':'적절하지 않은','검색장':'검색창','디음':'다음','운두에':"운동'에",'이 전부 이후':"이 전투' 이후",'일기가작성된':'일기가 작성된'}
             for a,b in replacements.items():title=title.replace(a,b)
-            for noun in ['이 나라','이 국가','이 왕','이 탑','임금','그','신문','이곳']:
+            for noun in ['이 나라','이 국가','이 왕','왕','이 탑','임금','그','신문','이곳','시기','이 시기','시대','이 시대','인물','이 인물','방안','운동','국회']:
                 title=title.replace("'"+noun+'의',"'"+noun+"'의").replace("'"+noun+'에',"'"+noun+"'에").replace("'"+noun+'으로',"'"+noun+"'으로")
             title=title.replace('(가에','(가)에').replace("자건'", "'사건'")
             title=title.replace('발표한정부','발표한 정부').replace('않은것은','않은 것은').replace('사실로옳은','사실로 옳은')
             override=geometry.get(f'{exam}-{n}',{})
             public['question_text']=override.get('title',title)
+            public['question_text']=re.sub(r'\s+',' ',public['question_text']).strip()
             public['image']=crop_asset(im,q['_bounds'],folder/f'q{n:02}.webp',scale)
-            public['material_image']=crop_asset(im,q['_material'],folder/f'material{n:02}.webp',scale)
+            public['material_image']=crop_asset(im,(override.get('material_regions') or [q['_material']])[0],folder/f'material{n:02}.webp',scale)
             if override.get('material_regions'):
                 # Shared stimuli may precede the question heading (72:47–48).
                 pieces=[]
@@ -269,22 +289,30 @@ def export():
                     x0=w['x']-3
                     x1=row_markers[pos+1]['x']-4 if pos+1<len(row_markers) else right-1
                     y0=w['y']-4
-                    y1=next((y-5 for y in row_ys if y>row+12),bottom-2)
+                    page_height=json.loads((CACHE/f'{exam}-{page:02}.text.json').read_text(encoding='utf8'))['height']
+                    footer_top=page_height-(100 if page_width>740 else 70)
+                    y1=next((y-5 for y in row_ys if y>row+12),min(bottom-2,footer_top))
                     text=q['options'][k]['text'] if len(q['options'])==5 else f'{k+1}번 원문 보기'
                     asset=crop_asset(im,[x0,y0,x1,y1],folder/f'option{n:02}_{k+1}.webp',scale)
                     with Image.open(ROOT/asset) as choice_image:
                         image_width=round(min(100,choice_image.width/((right-left)*scale)*100),2)
                     options.append(dict(number=k+1,text=text,image=asset,source_image=True,image_width=image_width))
                 public['options']=options
+            for option in public['options']:
+                if not option.get('source_image'):
+                    option['text']=re.sub(r'^\d+\s+[①-⑤]\s*','',option['text']).strip()
+                    option['text']=re.sub(r'\s+',' ',option['text'])
+                    if int(exam)==58 and n==44 and option['number']==1:
+                        option['text']=option['text'].removesuffix(' 도착')
             assert len(public['options'])==5,(exam,n,'option count')
             out.append(public)
         write_json(ROOT/'data/exams'/f'{exam}.json',dict(round=int(exam),level='심화',questions=out))
         print(exam,'exported',len(out),flush=True)
 
 if __name__ == '__main__':
-    if sys.argv[1:] == ['prepare']:
+    if sys.argv[1:2] == ['prepare']:
         prepare()
-    elif sys.argv[1:] == ['extract']:
+    elif sys.argv[1:2] == ['extract']:
         extract()
-    elif sys.argv[1:] == ['export']:
+    elif sys.argv[1:2] == ['export']:
         export()

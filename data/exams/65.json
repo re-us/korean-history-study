@@ -1,0 +1,2376 @@
+{
+  "round": 65,
+  "level": "심화",
+  "questions": [
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 1,
+      "source_page": 1,
+      "question_text": "밑줄 그은 '이 시대'의 생활 모습으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "소를 이용한 깊이갈이가 일반화되었다.",
+          "image": "assets/exams/65/option01_1.webp",
+          "source_image": true,
+          "image_width": 60.7
+        },
+        {
+          "number": 2,
+          "text": "많은 인력을 동원하여 고인돌을 축조하였다.",
+          "image": "assets/exams/65/option01_2.webp",
+          "source_image": true,
+          "image_width": 68.18
+        },
+        {
+          "number": 3,
+          "text": "실을 뽑기 위해 가락바귀를 처음 사용하였다.",
+          "image": "assets/exams/65/option01_3.webp",
+          "source_image": true,
+          "image_width": 69.28
+        },
+        {
+          "number": 4,
+          "text": "쟁기, 쇠스랑 등의 철제 농기구가 이용되었다.",
+          "image": "assets/exams/65/option01_4.webp",
+          "source_image": true,
+          "image_width": 70.51
+        },
+        {
+          "number": 5,
+          "text": "주로 동굴이나 강가에 막집을 짓고 거주하였다.",
+          "image": "assets/exams/65/option01_5.webp",
+          "source_image": true,
+          "image_width": 72.47
+        }
+      ],
+      "correct_option": 2,
+      "points": 1,
+      "image": "assets/exams/65/q01.webp",
+      "material_image": "assets/exams/65/material01.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 2,
+      "source_page": 1,
+      "question_text": "(가) 국가에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "동맹이라는 제천 행시를 열었다.",
+          "image": "assets/exams/65/option02_1.webp",
+          "source_image": true,
+          "image_width": 51.13
+        },
+        {
+          "number": 2,
+          "text": "신성 지역인 소도가 존재하였다.",
+          "image": "assets/exams/65/option02_2.webp",
+          "source_image": true,
+          "image_width": 51.13
+        },
+        {
+          "number": 3,
+          "text": "읍락 간의 경계를 중시하는 책화가 있었다.",
+          "image": "assets/exams/65/option02_3.webp",
+          "source_image": true,
+          "image_width": 66.1
+        },
+        {
+          "number": 4,
+          "text": "여러 가(加)들이 별도로 사출도를 다스렸다.",
+          "image": "assets/exams/65/option02_4.webp",
+          "source_image": true,
+          "image_width": 67.2
+        },
+        {
+          "number": 5,
+          "text": "사회 질서를 유지하기 위해 범금 8조를 두었다. 1",
+          "image": "assets/exams/65/option02_5.webp",
+          "source_image": true,
+          "image_width": 72.23
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q02.webp",
+      "material_image": "assets/exams/65/material02.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 3,
+      "source_page": 1,
+      "question_text": "(가) 지역에 대한 탐구 활동으로 가장 적절한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "무왕이 미록시를 창건한 곳을 살펴본다.",
+          "image": "assets/exams/65/option03_1.webp",
+          "source_image": true,
+          "image_width": 60.32
+        },
+        {
+          "number": 2,
+          "text": "무령왕과 왕비의 무덤이 발굴된 곳을 답사한다.",
+          "image": "assets/exams/65/option03_2.webp",
+          "source_image": true,
+          "image_width": 70.74
+        },
+        {
+          "number": 3,
+          "text": "성왕이 신라와의 전투에서 전사한 곳을 검색한다.",
+          "image": "assets/exams/65/option03_3.webp",
+          "source_image": true,
+          "image_width": 73.85
+        },
+        {
+          "number": 4,
+          "text": "윤충이 의자왕의 명을 받아 함락시킨 곳을 지도에 표시한다.",
+          "image": "assets/exams/65/option03_4.webp",
+          "source_image": true,
+          "image_width": 88.45
+        },
+        {
+          "number": 5,
+          "text": "계백이 이끄는 결사대가 신라군에 맞서 싸운 곳을 조사한다.",
+          "image": "assets/exams/65/option03_5.webp",
+          "source_image": true,
+          "image_width": 88.45
+        }
+      ],
+      "correct_option": 2,
+      "points": 2,
+      "image": "assets/exams/65/q03.webp",
+      "material_image": "assets/exams/65/material03.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 4,
+      "source_page": 1,
+      "question_text": "(가)에 해당하는 문화유산으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option04_1.webp",
+          "source_image": true,
+          "image_width": 23.1
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option04_2.webp",
+          "source_image": true,
+          "image_width": 23.1
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option04_3.webp",
+          "source_image": true,
+          "image_width": 17.24
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option04_4.webp",
+          "source_image": true,
+          "image_width": 20.59
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option04_5.webp",
+          "source_image": true,
+          "image_width": 46.2
+        }
+      ],
+      "correct_option": 1,
+      "points": 2,
+      "image": "assets/exams/65/q04.webp",
+      "material_image": "assets/exams/65/material04.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 5,
+      "source_page": 2,
+      "question_text": "다음 상황 이후에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "유리왕이 졸본에서 국내성으로 천도하였다.",
+          "image": "assets/exams/65/option05_1.webp",
+          "source_image": true,
+          "image_width": 66.95
+        },
+        {
+          "number": 2,
+          "text": "미천왕이 낙랑군을 축출하여 영토를 확장하였다.",
+          "image": "assets/exams/65/option05_2.webp",
+          "source_image": true,
+          "image_width": 74.43
+        },
+        {
+          "number": 3,
+          "text": "소수림왕이 불교를 공인하고 율령을 반포하였다.",
+          "image": "assets/exams/65/option05_3.webp",
+          "source_image": true,
+          "image_width": 74.43
+        },
+        {
+          "number": 4,
+          "text": "고국천왕이 을파소를 등용하고 진대법을 실시하였다.",
+          "image": "assets/exams/65/option05_4.webp",
+          "source_image": true,
+          "image_width": 80.81
+        },
+        {
+          "number": 5,
+          "text": "유주자사 관구검이 이끄는 군대가 환도성을 함락하였다.",
+          "image": "assets/exams/65/option05_5.webp",
+          "source_image": true,
+          "image_width": 85.1
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q05.webp",
+      "material_image": "assets/exams/65/material05.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 6,
+      "source_page": 2,
+      "question_text": "(가), (나) 사이의 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "장문휴가 당의 등주를 공격하였다.",
+          "image": "assets/exams/65/option06_1.webp",
+          "source_image": true,
+          "image_width": 54.32
+        },
+        {
+          "number": 2,
+          "text": "원광이 왕명으로 걸사표를 작성하였다.",
+          "image": "assets/exams/65/option06_2.webp",
+          "source_image": true,
+          "image_width": 60.58
+        },
+        {
+          "number": 3,
+          "text": "을지문덕이 살수에서 대승을 거두었다.",
+          "image": "assets/exams/65/option06_3.webp",
+          "source_image": true,
+          "image_width": 60.58
+        },
+        {
+          "number": 4,
+          "text": "김춘추가 당과의 군사 동맹을 성사시켰다.",
+          "image": "assets/exams/65/option06_4.webp",
+          "source_image": true,
+          "image_width": 64.87
+        },
+        {
+          "number": 5,
+          "text": "검모잠이 안승을 왕으로 세워 부흥 운동을 벌였다.",
+          "image": "assets/exams/65/option06_5.webp",
+          "source_image": true,
+          "image_width": 75.78
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q06.webp",
+      "material_image": "assets/exams/65/material06.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 7,
+      "source_page": 2,
+      "question_text": "밑줄 그은 '이 나라'에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "정사암 회의를 개최하였다.",
+          "image": "assets/exams/65/option07_1.webp",
+          "source_image": true,
+          "image_width": 43.65
+        },
+        {
+          "number": 2,
+          "text": "9서당 10정의 군사 조직을 갖추었다.",
+          "image": "assets/exams/65/option07_2.webp",
+          "source_image": true,
+          "image_width": 57.39
+        },
+        {
+          "number": 3,
+          "text": "욕살, 처려근지 등의 지방관을 두었다.",
+          "image": "assets/exams/65/option07_3.webp",
+          "source_image": true,
+          "image_width": 59.72
+        },
+        {
+          "number": 4,
+          "text": "인안, 대흥 등 독자적인 연호를 사용하였다.",
+          "image": "assets/exams/65/option07_4.webp",
+          "source_image": true,
+          "image_width": 67.2
+        },
+        {
+          "number": 5,
+          "text": "광평성을 비롯한 각종 정치 기구를 마련하였다. 2",
+          "image": "assets/exams/65/option07_5.webp",
+          "source_image": true,
+          "image_width": 72.35
+        }
+      ],
+      "correct_option": 4,
+      "points": 1,
+      "image": "assets/exams/65/q07.webp",
+      "material_image": "assets/exams/65/material07.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 8,
+      "source_page": 2,
+      "question_text": "밑줄 그은 '이 인물'에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "향가 모음집인 삼대목을 편찬하였다.",
+          "image": "assets/exams/65/option08_1.webp",
+          "source_image": true,
+          "image_width": 56.13
+        },
+        {
+          "number": 2,
+          "text": "진성 여왕에게 시무책 10여 조를 올렸다.",
+          "image": "assets/exams/65/option08_2.webp",
+          "source_image": true,
+          "image_width": 61.52
+        },
+        {
+          "number": 3,
+          "text": "화랑도의 규범으로 세속 5계를 제시하였다.",
+          "image": "assets/exams/65/option08_3.webp",
+          "source_image": true,
+          "image_width": 65.11
+        },
+        {
+          "number": 4,
+          "text": "외교 문서 작성에 능하여 청방인문표를 지었다.",
+          "image": "assets/exams/65/option08_4.webp",
+          "source_image": true,
+          "image_width": 70.74
+        },
+        {
+          "number": 5,
+          "text": "국왕에게 조언하는 내용인 화왕계를 집필하였다.",
+          "image": "assets/exams/65/option08_5.webp",
+          "source_image": true,
+          "image_width": 72.65
+        }
+      ],
+      "correct_option": 5,
+      "points": 3,
+      "image": "assets/exams/65/q08.webp",
+      "material_image": "assets/exams/65/material08.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 9,
+      "source_page": 2,
+      "question_text": "밑줄 그은 '시기'에 볼 수 있는 모습으로 적절한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "의장에서 곡식을 빌리는 백성",
+          "image": "assets/exams/65/option09_1.webp",
+          "source_image": true,
+          "image_width": 45.72
+        },
+        {
+          "number": 2,
+          "text": "만권당에서 대담을 나누는 학자",
+          "image": "assets/exams/65/option09_2.webp",
+          "source_image": true,
+          "image_width": 49.31
+        },
+        {
+          "number": 3,
+          "text": "혜민국에서 약을 받아 가는 환자",
+          "image": "assets/exams/65/option09_3.webp",
+          "source_image": true,
+          "image_width": 50.39
+        },
+        {
+          "number": 4,
+          "text": "화엄일승법계도를 저술하는 승려",
+          "image": "assets/exams/65/option09_4.webp",
+          "source_image": true,
+          "image_width": 50.87
+        },
+        {
+          "number": 5,
+          "text": "청해진을 거점으로 해적을 소탕하는 병사 12",
+          "image": "assets/exams/65/option09_5.webp",
+          "source_image": true,
+          "image_width": 62.84
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q09.webp",
+      "material_image": "assets/exams/65/material09.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 10,
+      "source_page": 3,
+      "question_text": "(가) 왕의 재위 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 개국 공신에게 역분전을 지급하였다.",
+          "image": "assets/exams/65/option10_1.webp",
+          "source_image": true,
+          "image_width": 57.51
+        },
+        {
+          "number": 2,
+          "text": "외침에 대비하여 광군을 조직하였다.",
+          "image": "assets/exams/65/option10_2.webp",
+          "source_image": true,
+          "image_width": 57.51
+        },
+        {
+          "number": 3,
+          "text": "광덕, 준풍 등의 독자적 연호를 사용하였다.",
+          "image": "assets/exams/65/option10_3.webp",
+          "source_image": true,
+          "image_width": 67.32
+        },
+        {
+          "number": 4,
+          "text": "관학 진흥을 목적으로 양현고를 운영하였다.",
+          "image": "assets/exams/65/option10_4.webp",
+          "source_image": true,
+          "image_width": 68.18
+        },
+        {
+          "number": 5,
+          "text": "주전도감을 설치하여 해동통보를 발행하였다.",
+          "image": "assets/exams/65/option10_5.webp",
+          "source_image": true,
+          "image_width": 70.26
+        }
+      ],
+      "correct_option": 1,
+      "points": 2,
+      "image": "assets/exams/65/q10.webp",
+      "material_image": "assets/exams/65/material10.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 11,
+      "source_page": 3,
+      "question_text": "다음 상황이 나타난 시기를 연표에서 옳게 고른 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option11_1.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option11_2.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option11_3.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option11_4.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option11_5.webp",
+          "source_image": true,
+          "image_width": 10.79
+        }
+      ],
+      "correct_option": 2,
+      "points": 3,
+      "image": "assets/exams/65/q11.webp",
+      "material_image": "assets/exams/65/material11.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 12,
+      "source_page": 3,
+      "question_text": "(가) 국가에 대한 고려의 대응으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 박위를 보내 근거지를 토벌하였다.",
+          "image": "assets/exams/65/option12_1.webp",
+          "source_image": true,
+          "image_width": 53.02
+        },
+        {
+          "number": 2,
+          "text": "조총 부대를 나선 정벌에 파견하였다.",
+          "image": "assets/exams/65/option12_2.webp",
+          "source_image": true,
+          "image_width": 57.21
+        },
+        {
+          "number": 3,
+          "text": "개경을 방어하기 위해 나성을 축조하였다.",
+          "image": "assets/exams/65/option12_3.webp",
+          "source_image": true,
+          "image_width": 63.44
+        },
+        {
+          "number": 4,
+          "text": "압록강 상류 지역을 개척하여 4군을 설치하였다.",
+          "image": "assets/exams/65/option12_4.webp",
+          "source_image": true,
+          "image_width": 72.53
+        },
+        {
+          "number": 5,
+          "text": "국방 문제를 논의하기 위해 비변사를 신설하였다.",
+          "image": "assets/exams/65/option12_5.webp",
+          "source_image": true,
+          "image_width": 73.85
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q12.webp",
+      "material_image": "assets/exams/65/material12.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 13,
+      "source_page": 3,
+      "question_text": "(가)에 들어갈 내용으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 국정사의 주지가 되어 해동 천태종을 개장하였다.",
+          "image": "assets/exams/65/option13_1.webp",
+          "source_image": true,
+          "image_width": 73.85
+        },
+        {
+          "number": 2,
+          "text": "불교 개혁을 주장하며 수선사 결사를 조직하였다.",
+          "image": "assets/exams/65/option13_2.webp",
+          "source_image": true,
+          "image_width": 73.85
+        },
+        {
+          "number": 3,
+          "text": "선문염송집을 편찬하고 유불 일지설을 주장하였다.",
+          "image": "assets/exams/65/option13_3.webp",
+          "source_image": true,
+          "image_width": 75.88
+        },
+        {
+          "number": 4,
+          "text": "불교 관련 자료를 중심으로 삼국유시를 집필하였다.",
+          "image": "assets/exams/65/option13_4.webp",
+          "source_image": true,
+          "image_width": 76.96
+        },
+        {
+          "number": 5,
+          "text": "인도와 중앙아시아를 순례하고 왕오천축국전을 남겼다. 12",
+          "image": "assets/exams/65/option13_5.webp",
+          "source_image": true,
+          "image_width": 81.99
+        }
+      ],
+      "correct_option": 1,
+      "points": 2,
+      "image": "assets/exams/65/q13.webp",
+      "material_image": "assets/exams/65/material13.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 14,
+      "source_page": 4,
+      "question_text": "(가)~(다)를 일어난 순서대로 옳게 나열한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(가) - (나) - (다)",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "(가) - (다) - (나)",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "(나) - (가) - (다)",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "(나) - (다) - (가)",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "(다) - (가) - (나)",
+          "image": null
+        }
+      ],
+      "correct_option": 4,
+      "points": 3,
+      "image": "assets/exams/65/q14.webp",
+      "material_image": "assets/exams/65/material14.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 15,
+      "source_page": 4,
+      "question_text": "다음 상황이 나타난 시기에 볼 수 있는 모습으로 적절한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "농사직설을 편찬하는 학자",
+          "image": "assets/exams/65/option15_1.webp",
+          "source_image": true,
+          "image_width": 42.92
+        },
+        {
+          "number": 2,
+          "text": "초량 왜관에서 교역하는 상인",
+          "image": "assets/exams/65/option15_2.webp",
+          "source_image": true,
+          "image_width": 47.09
+        },
+        {
+          "number": 3,
+          "text": "도평의사사에서 회의하는 관리",
+          "image": "assets/exams/65/option15_3.webp",
+          "source_image": true,
+          "image_width": 48.8
+        },
+        {
+          "number": 4,
+          "text": "규장각 김서관으로 근무하는 서얼",
+          "image": "assets/exams/65/option15_4.webp",
+          "source_image": true,
+          "image_width": 53.34
+        },
+        {
+          "number": 5,
+          "text": "빈공과 응시를 준비하는 6두품 유학생",
+          "image": "assets/exams/65/option15_5.webp",
+          "source_image": true,
+          "image_width": 59.35
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q15.webp",
+      "material_image": "assets/exams/65/material15.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 16,
+      "source_page": 4,
+      "question_text": "(가) 국가의 경제 상황으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "집집마다 부경이라는 창고가 있었다.",
+          "image": "assets/exams/65/option16_1.webp",
+          "source_image": true,
+          "image_width": 57.39
+        },
+        {
+          "number": 2,
+          "text": "활구라고 불리는 은병이 주조되었다.",
+          "image": "assets/exams/65/option16_2.webp",
+          "source_image": true,
+          "image_width": 57.39
+        },
+        {
+          "number": 3,
+          "text": "동시전이 설치되어 시장을 감독하였다.",
+          "image": "assets/exams/65/option16_3.webp",
+          "source_image": true,
+          "image_width": 60.58
+        },
+        {
+          "number": 4,
+          "text": "계해약조가 체결되어 일본과 교역하였다.",
+          "image": "assets/exams/65/option16_4.webp",
+          "source_image": true,
+          "image_width": 63.77
+        },
+        {
+          "number": 5,
+          "text": "광산을 전문적으로 경 영하는 덕대가 등장하였다. 4",
+          "image": "assets/exams/65/option16_5.webp",
+          "source_image": true,
+          "image_width": 74.43
+        }
+      ],
+      "correct_option": 2,
+      "points": 1,
+      "image": "assets/exams/65/q16.webp",
+      "material_image": "assets/exams/65/material16.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 17,
+      "source_page": 4,
+      "question_text": "(가)에 해당하는 문화유산으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option17_1.webp",
+          "source_image": true,
+          "image_width": 29.32
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option17_2.webp",
+          "source_image": true,
+          "image_width": 29.44
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option17_3.webp",
+          "source_image": true,
+          "image_width": 29.32
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option17_4.webp",
+          "source_image": true,
+          "image_width": 29.32
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option17_5.webp",
+          "source_image": true,
+          "image_width": 29.32
+        }
+      ],
+      "correct_option": 1,
+      "points": 2,
+      "image": "assets/exams/65/q17.webp",
+      "material_image": "assets/exams/65/material17.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 18,
+      "source_page": 4,
+      "question_text": "다음 대화 이후에 전개된 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "윤관이 별무반을 이끌고 9성을 축조하였다.",
+          "image": "assets/exams/65/option18_1.webp",
+          "source_image": true,
+          "image_width": 72.41
+        },
+        {
+          "number": 2,
+          "text": "서희가 외교 담판을 벌여 강동 6주를 획득하였다.",
+          "image": "assets/exams/65/option18_2.webp",
+          "source_image": true,
+          "image_width": 73.61
+        },
+        {
+          "number": 3,
+          "text": "이성계가 위화도에서 회군하여 정권을 장악하였다.",
+          "image": "assets/exams/65/option18_3.webp",
+          "source_image": true,
+          "image_width": 75.76
+        },
+        {
+          "number": 4,
+          "text": "배중손이 이끄는 삼별초가 용장산성에서 항전하였다.",
+          "image": "assets/exams/65/option18_4.webp",
+          "source_image": true,
+          "image_width": 78.88
+        },
+        {
+          "number": 5,
+          "text": "최우가 강화도로 도읍을 옮겨 장기 항전을 준비하였다. 12",
+          "image": "assets/exams/65/option18_5.webp",
+          "source_image": true,
+          "image_width": 81.15
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q18.webp",
+      "material_image": "assets/exams/65/material18.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 19,
+      "source_page": 5,
+      "question_text": "밑줄 그은 '이 왕'의 재위 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 독립된 간쟁 기관으로 사간원이 설치되었다.",
+          "image": "assets/exams/65/option19_1.webp",
+          "source_image": true,
+          "image_width": 68.18
+        },
+        {
+          "number": 2,
+          "text": "(기 함길도 토착 세력인 이시애가 난을 일으켰다.",
+          "image": "assets/exams/65/option19_2.webp",
+          "source_image": true,
+          "image_width": 69.28
+        },
+        {
+          "number": 3,
+          "text": "직제가 개편된 홍문관에서 경연을 주관하였다.",
+          "image": "assets/exams/65/option19_3.webp",
+          "source_image": true,
+          "image_width": 71.37
+        },
+        {
+          "number": 4,
+          "text": "(0 집현전 관리를 대상으로 사가독서제가 시행되었다.",
+          "image": "assets/exams/65/option19_4.webp",
+          "source_image": true,
+          "image_width": 77.74
+        },
+        {
+          "number": 5,
+          "text": "(9 붕당의 폐해를 경계하기 위한 당평비가 건립되었다.",
+          "image": "assets/exams/65/option19_5.webp",
+          "source_image": true,
+          "image_width": 78.85
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q19.webp",
+      "material_image": "assets/exams/65/material19.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 20,
+      "source_page": 5,
+      "question_text": "㉠~㉤에 대한 탐구 활동으로 가장 적절한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 ㉠ 왕자의 난이 일어난 이유를 찾아본다. -",
+          "image": "assets/exams/65/option20_1.webp",
+          "source_image": true,
+          "image_width": 72.1
+        },
+        {
+          "number": 2,
+          "text": "황사영 백서 사건이 가져온 결괴를 살펴본다. -",
+          "image": "assets/exams/65/option20_2.webp",
+          "source_image": true,
+          "image_width": 72.84
+        },
+        {
+          "number": 3,
+          "text": "㉢ 예송 논쟁의 발생 배경을 파악한다. -",
+          "image": "assets/exams/65/option20_3.webp",
+          "source_image": true,
+          "image_width": 63.27
+        },
+        {
+          "number": 4,
+          "text": "㉣ 갑술횐국의 전개 양상을 정리한다. -",
+          "image": "assets/exams/65/option20_4.webp",
+          "source_image": true,
+          "image_width": 62.17
+        },
+        {
+          "number": 5,
+          "text": "㉤ 윤임 일파가 축출되는 과정을 조사한다. - 5",
+          "image": "assets/exams/65/option20_5.webp",
+          "source_image": true,
+          "image_width": 69.65
+        }
+      ],
+      "correct_option": 5,
+      "points": 3,
+      "image": "assets/exams/65/q20.webp",
+      "material_image": "assets/exams/65/material20.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 21,
+      "source_page": 5,
+      "question_text": "다음 상황이 전개된 배경으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "인조반정으로 북인 세력이 몰락하였다.",
+          "image": "assets/exams/65/option21_1.webp",
+          "source_image": true,
+          "image_width": 59.25
+        },
+        {
+          "number": 2,
+          "text": "인현왕후가 폐위되고 남인이 권력을 차지하였다.",
+          "image": "assets/exams/65/option21_2.webp",
+          "source_image": true,
+          "image_width": 72.77
+        },
+        {
+          "number": 3,
+          "text": "계유정난을 통해 수양대군이 정권을 장악하였다.",
+          "image": "assets/exams/65/option21_3.webp",
+          "source_image": true,
+          "image_width": 72.77
+        },
+        {
+          "number": 4,
+          "text": "이인죄를 중심으로 한 소론 세력이 난을 일으켰다.",
+          "image": "assets/exams/65/option21_4.webp",
+          "source_image": true,
+          "image_width": 74.93
+        },
+        {
+          "number": 5,
+          "text": "폐비 윤씨 사사 사건으로 인해 김굉필 등이 처형되었다.",
+          "image": "assets/exams/65/option21_5.webp",
+          "source_image": true,
+          "image_width": 82.23
+        }
+      ],
+      "correct_option": 3,
+      "points": 1,
+      "image": "assets/exams/65/q21.webp",
+      "material_image": "assets/exams/65/material21.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 22,
+      "source_page": 5,
+      "question_text": "(가)에 해당하는 작품으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option22_1.webp",
+          "source_image": true,
+          "image_width": 44.17
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option22_2.webp",
+          "source_image": true,
+          "image_width": 44.17
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option22_3.webp",
+          "source_image": true,
+          "image_width": 38.78
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option22_4.webp",
+          "source_image": true,
+          "image_width": 24.42
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option22_5.webp",
+          "source_image": true,
+          "image_width": 36.39
+        }
+      ],
+      "correct_option": 1,
+      "points": 1,
+      "image": "assets/exams/65/q22.webp",
+      "material_image": "assets/exams/65/material22.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 23,
+      "source_page": 6,
+      "question_text": "밑줄 그은 '이 전쟁' 중에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "조명 연합군이 평양성을 탈환하였다.",
+          "image": "assets/exams/65/option23_1.webp",
+          "source_image": true,
+          "image_width": 57.51
+        },
+        {
+          "number": 2,
+          "text": "강홍립이 사르후 전투에 참전하였다.",
+          "image": "assets/exams/65/option23_2.webp",
+          "source_image": true,
+          "image_width": 57.51
+        },
+        {
+          "number": 3,
+          "text": "김준룡이 광교산 전투에서 승리하였다.",
+          "image": "assets/exams/65/option23_3.webp",
+          "source_image": true,
+          "image_width": 60.58
+        },
+        {
+          "number": 4,
+          "text": "김종서가 두만강 일대에 6진을 개척하였다.",
+          "image": "assets/exams/65/option23_4.webp",
+          "source_image": true,
+          "image_width": 66.71
+        },
+        {
+          "number": 5,
+          "text": "곽재우, 김천일 등이 의병장으로 활약하였다.",
+          "image": "assets/exams/65/option23_5.webp",
+          "source_image": true,
+          "image_width": 69.28
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q23.webp",
+      "material_image": "assets/exams/65/material23.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 24,
+      "source_page": 6,
+      "question_text": "(가) 왕에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "청과 국경을 정하는 백두산정계비를 세웠다.",
+          "image": "assets/exams/65/option24_1.webp",
+          "source_image": true,
+          "image_width": 68.06
+        },
+        {
+          "number": 2,
+          "text": "통치 체제를 정비하고자 속대전을 편찬하였다.",
+          "image": "assets/exams/65/option24_2.webp",
+          "source_image": true,
+          "image_width": 71.25
+        },
+        {
+          "number": 3,
+          "text": "왕실의 위엄을 높이기 위해 경복궁을 중건하였다.",
+          "image": "assets/exams/65/option24_3.webp",
+          "source_image": true,
+          "image_width": 74.68
+        },
+        {
+          "number": 4,
+          "text": "삼정의 문란을 시정하려고 삼정이정청을 설치하였다.",
+          "image": "assets/exams/65/option24_4.webp",
+          "source_image": true,
+          "image_width": 80.81
+        },
+        {
+          "number": 5,
+          "text": "시전 상인의 특권을 축소하는 신해통 공 을 단행하였다. 6",
+          "image": "assets/exams/65/option24_5.webp",
+          "source_image": true,
+          "image_width": 82.89
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q24.webp",
+      "material_image": "assets/exams/65/material24.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 25,
+      "source_page": 6,
+      "question_text": "(가) 제도에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "양반에게도 군포를 부과하였다.",
+          "image": "assets/exams/65/option25_1.webp",
+          "source_image": true,
+          "image_width": 48.83
+        },
+        {
+          "number": 2,
+          "text": "수신전과 휼양전을 폐지하였다.",
+          "image": "assets/exams/65/option25_2.webp",
+          "source_image": true,
+          "image_width": 48.83
+        },
+        {
+          "number": 3,
+          "text": "양전 사업을 실시하여 지계를 발급하였다.",
+          "image": "assets/exams/65/option25_3.webp",
+          "source_image": true,
+          "image_width": 63.44
+        },
+        {
+          "number": 4,
+          "text": "전세를 풍흉에 따라 9등급으로 차등 과세하였다.",
+          "image": "assets/exams/65/option25_4.webp",
+          "source_image": true,
+          "image_width": 72.53
+        },
+        {
+          "number": 5,
+          "text": "관청에 물품을 조달하는 공인이 등장하는 배경이 되었다.",
+          "image": "assets/exams/65/option25_5.webp",
+          "source_image": true,
+          "image_width": 84.26
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q25.webp",
+      "material_image": "assets/exams/65/material25.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 26,
+      "source_page": 6,
+      "question_text": "(가)~(라)를 일어난 순서대로 옳게 나열한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(가) - (나) - (다) - (라)",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "(가) - (다) - (나) - (라)",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "(나) - (가) - (라) - (다)",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "(나) - (다) - (가) - (라)",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "(다) - (라) - (나) - (가)",
+          "image": null
+        }
+      ],
+      "correct_option": 4,
+      "points": 3,
+      "image": "assets/exams/65/q26.webp",
+      "material_image": "assets/exams/65/material26.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 27,
+      "source_page": 7,
+      "question_text": "다음 가상 인터뷰의 주인공에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 마과회통에서 홍역에 대한 지식을 정리하였다.",
+          "image": "assets/exams/65/option27_1.webp",
+          "source_image": true,
+          "image_width": 71.37
+        },
+        {
+          "number": 2,
+          "text": "의산문답에서 중국 중심의 세계관을 비판하였다.",
+          "image": "assets/exams/65/option27_2.webp",
+          "source_image": true,
+          "image_width": 74.56
+        },
+        {
+          "number": 3,
+          "text": "발해고에서 남북국이라는 용어를 처음 사용하였다.",
+          "image": "assets/exams/65/option27_3.webp",
+          "source_image": true,
+          "image_width": 77.74
+        },
+        {
+          "number": 4,
+          "text": "곽우록에서 토지 매매를 제한하는 한전론을 제시하였다.",
+          "image": "assets/exams/65/option27_4.webp",
+          "source_image": true,
+          "image_width": 85.22
+        },
+        {
+          "number": 5,
+          "text": "금석과안록에서 북한산비가 진흥왕 순수비임을 고증하였다.",
+          "image": "assets/exams/65/option27_5.webp",
+          "source_image": true,
+          "image_width": 90.37
+        }
+      ],
+      "correct_option": 4,
+      "points": 2,
+      "image": "assets/exams/65/q27.webp",
+      "material_image": "assets/exams/65/material27.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 28,
+      "source_page": 7,
+      "question_text": "밑줄 그은 '이 시기'에 볼 수 있는 모습으로 적절하지 않은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 주자소에서 계미지를 만드는 장인",
+          "image": "assets/exams/65/option28_1.webp",
+          "source_image": true,
+          "image_width": 53.46
+        },
+        {
+          "number": 2,
+          "text": "(기 송파장에서 산대놀이를 공연하는 광대",
+          "image": "assets/exams/65/option28_2.webp",
+          "source_image": true,
+          "image_width": 59.6
+        },
+        {
+          "number": 3,
+          "text": "대규모 자본으로 물품을 구매하는 도고",
+          "image": "assets/exams/65/option28_3.webp",
+          "source_image": true,
+          "image_width": 61.07
+        },
+        {
+          "number": 4,
+          "text": "(0 시사를 조직하여 작품 활동을 하는 중인",
+          "image": "assets/exams/65/option28_4.webp",
+          "source_image": true,
+          "image_width": 62.05
+        },
+        {
+          "number": 5,
+          "text": "(9 인삼, 담배 등을 상품 작물로 재배하는 농민 7",
+          "image": "assets/exams/65/option28_5.webp",
+          "source_image": true,
+          "image_width": 67.57
+        }
+      ],
+      "correct_option": 1,
+      "points": 1,
+      "image": "assets/exams/65/q28.webp",
+      "material_image": "assets/exams/65/material28.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 29,
+      "source_page": 7,
+      "question_text": "(가), (나) 사이의 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 영국이 거문도를 불법으로 점령하였다.",
+          "image": "assets/exams/65/option29_1.webp",
+          "source_image": true,
+          "image_width": 59.25
+        },
+        {
+          "number": 2,
+          "text": "일본의 운요호가 영종도를 공격하였다.",
+          "image": "assets/exams/65/option29_2.webp",
+          "source_image": true,
+          "image_width": 59.25
+        },
+        {
+          "number": 3,
+          "text": "러시아가 용암포에 대한 조치를 요구하였다.",
+          "image": "assets/exams/65/option29_3.webp",
+          "source_image": true,
+          "image_width": 66.55
+        },
+        {
+          "number": 4,
+          "text": "독일 상인 오페르트가 남연군 묘 도굴을 시도하였다.",
+          "image": "assets/exams/65/option29_4.webp",
+          "source_image": true,
+          "image_width": 78.04
+        },
+        {
+          "number": 5,
+          "text": "미국이 조미 수호 통상 조약 체결 후 푸트 공시를 파견하였다.",
+          "image": "assets/exams/65/option29_5.webp",
+          "source_image": true,
+          "image_width": 90.61
+        }
+      ],
+      "correct_option": 4,
+      "points": 2,
+      "image": "assets/exams/65/q29.webp",
+      "material_image": "assets/exams/65/material29.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 30,
+      "source_page": 7,
+      "question_text": "(가)에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "입헌 군주제 수립을 목표로 하였다.",
+          "image": "assets/exams/65/option30_1.webp",
+          "source_image": true,
+          "image_width": 54.1
+        },
+        {
+          "number": 2,
+          "text": "조선 총독부의 방해와 탄압으로 실패하였다.",
+          "image": "assets/exams/65/option30_2.webp",
+          "source_image": true,
+          "image_width": 66.55
+        },
+        {
+          "number": 3,
+          "text": "우정총국 개국 축하연을 이용하여 일어났다.",
+          "image": "assets/exams/65/option30_3.webp",
+          "source_image": true,
+          "image_width": 66.55
+        },
+        {
+          "number": 4,
+          "text": "홍범 14조를 기본 개혁 방향으로 제시하였다.",
+          "image": "assets/exams/65/option30_4.webp",
+          "source_image": true,
+          "image_width": 67.74
+        },
+        {
+          "number": 5,
+          "text": "일본 공사관에 경비병이 주둔하는 계기가 되었다. 12",
+          "image": "assets/exams/65/option30_5.webp",
+          "source_image": true,
+          "image_width": 73.85
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q30.webp",
+      "material_image": "assets/exams/65/material30.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 31,
+      "source_page": 8,
+      "question_text": "(가), (나) 사이의 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "논산으로 남접과 북접이 집결하였다.",
+          "image": "assets/exams/65/option31_1.webp",
+          "source_image": true,
+          "image_width": 57.51
+        },
+        {
+          "number": 2,
+          "text": "개혁을 추진하기 위해 교정청이 설치되었다.",
+          "image": "assets/exams/65/option31_2.webp",
+          "source_image": true,
+          "image_width": 68.06
+        },
+        {
+          "number": 3,
+          "text": "일본이 군대를 동원하여 경복궁을 점령하였다.",
+          "image": "assets/exams/65/option31_3.webp",
+          "source_image": true,
+          "image_width": 71.25
+        },
+        {
+          "number": 4,
+          "text": "고부 농민들이 조병갑의 탐학에 맞서 만석보를 파괴하였다.",
+          "image": "assets/exams/65/option31_4.webp",
+          "source_image": true,
+          "image_width": 87.8
+        },
+        {
+          "number": 5,
+          "text": "공주 우금치에서 농민군이 관군과 일본군에게 패배하였다.",
+          "image": "assets/exams/65/option31_5.webp",
+          "source_image": true,
+          "image_width": 89.27
+        }
+      ],
+      "correct_option": 4,
+      "points": 2,
+      "image": "assets/exams/65/q31.webp",
+      "material_image": "assets/exams/65/material31.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 32,
+      "source_page": 8,
+      "question_text": "다음 글이 작성된 시기를 연표에서 옳게 고른 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option32_1.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option32_2.webp",
+          "source_image": true,
+          "image_width": 10.79
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option32_3.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option32_4.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option32_5.webp",
+          "source_image": true,
+          "image_width": 10.91
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q32.webp",
+      "material_image": "assets/exams/65/material32.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 33,
+      "source_page": 8,
+      "question_text": "다음 의병 부대에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "조선 혁명 선언을 지침으로 삼았다.",
+          "image": "assets/exams/65/option33_1.webp",
+          "source_image": true,
+          "image_width": 54.1
+        },
+        {
+          "number": 2,
+          "text": "이만손이 주도하여 영남 만인소를 올렸다.",
+          "image": "assets/exams/65/option33_2.webp",
+          "source_image": true,
+          "image_width": 63.44
+        },
+        {
+          "number": 3,
+          "text": "상덕태상회를 통하여 군자금을 모집하였다.",
+          "image": "assets/exams/65/option33_3.webp",
+          "source_image": true,
+          "image_width": 65.35
+        },
+        {
+          "number": 4,
+          "text": "일본에 국권 반환 요구서를 제출하고자 하였다.",
+          "image": "assets/exams/65/option33_4.webp",
+          "source_image": true,
+          "image_width": 70.74
+        },
+        {
+          "number": 5,
+          "text": "고종의 강제 퇴위와 군대 해산에 반발하여 결성되었다.",
+          "image": "assets/exams/65/option33_5.webp",
+          "source_image": true,
+          "image_width": 81.15
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q33.webp",
+      "material_image": "assets/exams/65/material33.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 34,
+      "source_page": 8,
+      "question_text": "다음 상소가 작성된 이후의 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "영선사가 파견되었다.",
+          "image": "assets/exams/65/option34_1.webp",
+          "source_image": true,
+          "image_width": 35.31
+        },
+        {
+          "number": 2,
+          "text": "군국기무처가 설치되었다.",
+          "image": "assets/exams/65/option34_2.webp",
+          "source_image": true,
+          "image_width": 41.53
+        },
+        {
+          "number": 3,
+          "text": "대한국 국제가 반포되었다.",
+          "image": "assets/exams/65/option34_3.webp",
+          "source_image": true,
+          "image_width": 43.21
+        },
+        {
+          "number": 4,
+          "text": "제너럴 서민호 사건이 일어났다.",
+          "image": "assets/exams/65/option34_4.webp",
+          "source_image": true,
+          "image_width": 49.91
+        },
+        {
+          "number": 5,
+          "text": "조청 상민 수륙 무역 장정이 체결되었다. 12",
+          "image": "assets/exams/65/option34_5.webp",
+          "source_image": true,
+          "image_width": 61.4
+        }
+      ],
+      "correct_option": 3,
+      "points": 1,
+      "image": "assets/exams/65/q34.webp",
+      "material_image": "assets/exams/65/material34.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 35,
+      "source_page": 9,
+      "question_text": "(가)~(다)를 일어난 순서대로 옳게 나열한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(가) - (나) - (다)",
+          "image": null
+        },
+        {
+          "number": 2,
+          "text": "(가) - (다) - (나)",
+          "image": null
+        },
+        {
+          "number": 3,
+          "text": "(나) - (가) - (다)",
+          "image": null
+        },
+        {
+          "number": 4,
+          "text": "(나) - (다) - (가)",
+          "image": null
+        },
+        {
+          "number": 5,
+          "text": "(다) - (가) - (나)",
+          "image": null
+        }
+      ],
+      "correct_option": 1,
+      "points": 3,
+      "image": "assets/exams/65/q35.webp",
+      "material_image": "assets/exams/65/material35.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 36,
+      "source_page": 9,
+      "question_text": "(가) 단체에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "정우회 선언의 영향으로 결성되었다.",
+          "image": "assets/exams/65/option36_1.webp",
+          "source_image": true,
+          "image_width": 57.51
+        },
+        {
+          "number": 2,
+          "text": "만세보를 발행하여 민족의식을 고취하였다.",
+          "image": "assets/exams/65/option36_2.webp",
+          "source_image": true,
+          "image_width": 67.08
+        },
+        {
+          "number": 3,
+          "text": "중추원 개편을 통해 의회 설립을 추진하였다.",
+          "image": "assets/exams/65/option36_3.webp",
+          "source_image": true,
+          "image_width": 69.28
+        },
+        {
+          "number": 4,
+          "text": "어린이날을 제정하고 소년 운동을 전개하였다.",
+          "image": "assets/exams/65/option36_4.webp",
+          "source_image": true,
+          "image_width": 71.37
+        },
+        {
+          "number": 5,
+          "text": "태극 서관을 운영하여 계몽 서적 등을 보급하였다. 9",
+          "image": "assets/exams/65/option36_5.webp",
+          "source_image": true,
+          "image_width": 76.76
+        }
+      ],
+      "correct_option": 3,
+      "points": 2,
+      "image": "assets/exams/65/q36.webp",
+      "material_image": "assets/exams/65/material36.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 37,
+      "source_page": 9,
+      "question_text": "(가)~(마)에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(가) 우리나라 최초의 근대 신문이 간행되었다. -",
+          "image": "assets/exams/65/option37_1.webp",
+          "source_image": true,
+          "image_width": 73.25
+        },
+        {
+          "number": 2,
+          "text": "(나) 고종의 황제 즉위식이 거행된 장소이다. -",
+          "image": "assets/exams/65/option37_2.webp",
+          "source_image": true,
+          "image_width": 70.14
+        },
+        {
+          "number": 3,
+          "text": "(다) 백동화가 주조되었다. -",
+          "image": "assets/exams/65/option37_3.webp",
+          "source_image": true,
+          "image_width": 45.12
+        },
+        {
+          "number": 4,
+          "text": "(라) 을사늑약이 체결되었다. -",
+          "image": "assets/exams/65/option37_4.webp",
+          "source_image": true,
+          "image_width": 48.24
+        },
+        {
+          "number": 5,
+          "text": "(마) 나운규의 아리랑이 처음 상영된 곳이다. -",
+          "image": "assets/exams/65/option37_5.webp",
+          "source_image": true,
+          "image_width": 70.14
+        }
+      ],
+      "correct_option": 4,
+      "points": 3,
+      "image": "assets/exams/65/q37.webp",
+      "material_image": "assets/exams/65/material37.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 38,
+      "source_page": 9,
+      "question_text": "다음 판결이 내려진 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 원수부가 설치되었다.",
+          "image": "assets/exams/65/option38_1.webp",
+          "source_image": true,
+          "image_width": 35.31
+        },
+        {
+          "number": 2,
+          "text": "신간회가 창립되었다.",
+          "image": "assets/exams/65/option38_2.webp",
+          "source_image": true,
+          "image_width": 35.31
+        },
+        {
+          "number": 3,
+          "text": "치안 유지법이 적용되었다.",
+          "image": "assets/exams/65/option38_3.webp",
+          "source_image": true,
+          "image_width": 42.61
+        },
+        {
+          "number": 4,
+          "text": "헌병 경찰제가 실시되었다.",
+          "image": "assets/exams/65/option38_4.webp",
+          "source_image": true,
+          "image_width": 42.61
+        },
+        {
+          "number": 5,
+          "text": "동양 척식 주식회사가 설립되었다. 12",
+          "image": "assets/exams/65/option38_5.webp",
+          "source_image": true,
+          "image_width": 53.02
+        }
+      ],
+      "correct_option": 4,
+      "points": 1,
+      "image": "assets/exams/65/q38.webp",
+      "material_image": "assets/exams/65/material38.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 39,
+      "source_page": 10,
+      "question_text": "㉠~㉤에 대한 탐구 활동으로 적절하지 않은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 ㉠ 태학의 설립 취지를 찾아본다. -",
+          "image": "assets/exams/65/option39_1.webp",
+          "source_image": true,
+          "image_width": 55.79
+        },
+        {
+          "number": 2,
+          "text": "9재 학당의 수업 내용을 조사한다. -",
+          "image": "assets/exams/65/option39_2.webp",
+          "source_image": true,
+          "image_width": 57.63
+        },
+        {
+          "number": 3,
+          "text": "㉢ 명륜당과 대성전의 기능을 알아본다. -",
+          "image": "assets/exams/65/option39_3.webp",
+          "source_image": true,
+          "image_width": 65.36
+        },
+        {
+          "number": 4,
+          "text": "㉣ 동문학과 육영 공원의 운영 목적을 분석한다.",
+          "image": "assets/exams/65/option39_4.webp",
+          "source_image": true,
+          "image_width": 77.13
+        },
+        {
+          "number": 5,
+          "text": "㉤ 배재 학당, 이화 학당의 설립 시기를 파악한다. -",
+          "image": "assets/exams/65/option39_5.webp",
+          "source_image": true,
+          "image_width": 79.46
+        }
+      ],
+      "correct_option": 5,
+      "points": 2,
+      "image": "assets/exams/65/q39.webp",
+      "material_image": "assets/exams/65/material39.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 40,
+      "source_page": 10,
+      "question_text": "다음 법령이 발표된 이후에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "서당 규칙이 제정되었다.",
+          "image": "assets/exams/65/option40_1.webp",
+          "source_image": true,
+          "image_width": 40.47
+        },
+        {
+          "number": 2,
+          "text": "2•8 독립 선언이 발표되었다.",
+          "image": "assets/exams/65/option40_2.webp",
+          "source_image": true,
+          "image_width": 46.72
+        },
+        {
+          "number": 3,
+          "text": "조선어 연구회가 결성되었다.",
+          "image": "assets/exams/65/option40_3.webp",
+          "source_image": true,
+          "image_width": 47.33
+        },
+        {
+          "number": 4,
+          "text": "조선 여자 교육회가 조직되었다.",
+          "image": "assets/exams/65/option40_4.webp",
+          "source_image": true,
+          "image_width": 51.13
+        },
+        {
+          "number": 5,
+          "text": "조선 민립 대학 설립 기성회가 창립되었다. 10",
+          "image": "assets/exams/65/option40_5.webp",
+          "source_image": true,
+          "image_width": 66.1
+        }
+      ],
+      "correct_option": 5,
+      "points": 3,
+      "image": "assets/exams/65/q40.webp",
+      "material_image": "assets/exams/65/material40.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 41,
+      "source_page": 10,
+      "question_text": "(가) 정부의 활동에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "무장 투쟁을 위해 중광단을 결성하였다.",
+          "image": "assets/exams/65/option41_1.webp",
+          "source_image": true,
+          "image_width": 60.32
+        },
+        {
+          "number": 2,
+          "text": "민족 교육을 위해 서전서숙을 설립하였다.",
+          "image": "assets/exams/65/option41_2.webp",
+          "source_image": true,
+          "image_width": 63.44
+        },
+        {
+          "number": 3,
+          "text": "독립군 양성을 위해 신흥 강습소를 세웠다.",
+          "image": "assets/exams/65/option41_3.webp",
+          "source_image": true,
+          "image_width": 64.51
+        },
+        {
+          "number": 4,
+          "text": "외교 활동을 위해 구미 위원부를 설치하였다.",
+          "image": "assets/exams/65/option41_4.webp",
+          "source_image": true,
+          "image_width": 67.62
+        },
+        {
+          "number": 5,
+          "text": "농촌 계몽을 위해 브나로드 운동을 전개하였다.",
+          "image": "assets/exams/65/option41_5.webp",
+          "source_image": true,
+          "image_width": 70.98
+        }
+      ],
+      "correct_option": 4,
+      "points": 2,
+      "image": "assets/exams/65/q41.webp",
+      "material_image": "assets/exams/65/material41.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 42,
+      "source_page": 10,
+      "question_text": "밑줄 그은 '시기'에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "원산 총파업이 발생하였다.",
+          "image": "assets/exams/65/option42_1.webp",
+          "source_image": true,
+          "image_width": 42.61
+        },
+        {
+          "number": 2,
+          "text": "미쓰야 협정이 체결되었다.",
+          "image": "assets/exams/65/option42_2.webp",
+          "source_image": true,
+          "image_width": 42.61
+        },
+        {
+          "number": 3,
+          "text": "조선 형평사가 결성되었다.",
+          "image": "assets/exams/65/option42_3.webp",
+          "source_image": true,
+          "image_width": 42.61
+        },
+        {
+          "number": 4,
+          "text": "국가 총동원법이 시행되었다.",
+          "image": "assets/exams/65/option42_4.webp",
+          "source_image": true,
+          "image_width": 45.72
+        },
+        {
+          "number": 5,
+          "text": "임시 토지 조시국이 설립되었다. 12",
+          "image": "assets/exams/65/option42_5.webp",
+          "source_image": true,
+          "image_width": 49.91
+        }
+      ],
+      "correct_option": 4,
+      "points": 2,
+      "image": "assets/exams/65/q42.webp",
+      "material_image": "assets/exams/65/material42.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 43,
+      "source_page": 11,
+      "question_text": "(가)에 대한 설명으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "자유시 참변으로 시련을 겪었다.",
+          "image": "assets/exams/65/option43_1.webp",
+          "source_image": true,
+          "image_width": 51.01
+        },
+        {
+          "number": 2,
+          "text": "대원 일부가 한국광복군에 합류하였다.",
+          "image": "assets/exams/65/option43_2.webp",
+          "source_image": true,
+          "image_width": 60.58
+        },
+        {
+          "number": 3,
+          "text": "쌍성보 전투에서 한중 연합 작전을 전개하였다.",
+          "image": "assets/exams/65/option43_3.webp",
+          "source_image": true,
+          "image_width": 72.35
+        },
+        {
+          "number": 4,
+          "text": "독립군 양성 기관인 한인 소년병 학교를 설립하였다.",
+          "image": "assets/exams/65/option43_4.webp",
+          "source_image": true,
+          "image_width": 79.83
+        },
+        {
+          "number": 5,
+          "text": "홍범도 부대와 연합하여 청산리에서 일본군과 교전하였다.",
+          "image": "assets/exams/65/option43_5.webp",
+          "source_image": true,
+          "image_width": 88.29
+        }
+      ],
+      "correct_option": 2,
+      "points": 2,
+      "image": "assets/exams/65/q43.webp",
+      "material_image": "assets/exams/65/material43.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 44,
+      "source_page": 11,
+      "question_text": "(가)에 들어갈 내용으로 적절한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 조선어 학회 사건으로 옥고를 치르다",
+          "image": "assets/exams/65/option44_1.webp",
+          "source_image": true,
+          "image_width": 57.88
+        },
+        {
+          "number": 2,
+          "text": "파리 강화 회의에 독립 청원서를 제출하다",
+          "image": "assets/exams/65/option44_2.webp",
+          "source_image": true,
+          "image_width": 65.36
+        },
+        {
+          "number": 3,
+          "text": "복벽주의를 내세우며 독립 의군부를 조직하다",
+          "image": "assets/exams/65/option44_3.webp",
+          "source_image": true,
+          "image_width": 70.63
+        },
+        {
+          "number": 4,
+          "text": "국권 피탈 과정을 정리한 한국통시를 저술하다",
+          "image": "assets/exams/65/option44_4.webp",
+          "source_image": true,
+          "image_width": 71.74
+        },
+        {
+          "number": 5,
+          "text": "일제에 의해 조작된 105인 사건으로 재판을 받다 11",
+          "image": "assets/exams/65/option44_5.webp",
+          "source_image": true,
+          "image_width": 74.8
+        }
+      ],
+      "correct_option": 1,
+      "points": 2,
+      "image": "assets/exams/65/q44.webp",
+      "material_image": "assets/exams/65/material44.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 45,
+      "source_page": 11,
+      "question_text": "다음 총선거에 대한 설명으로 옳은 것을 〈보기〉에서 고른 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option45_1.webp",
+          "source_image": true,
+          "image_width": 13.64
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option45_2.webp",
+          "source_image": true,
+          "image_width": 13.52
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option45_3.webp",
+          "source_image": true,
+          "image_width": 13.52
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option45_4.webp",
+          "source_image": true,
+          "image_width": 13.64
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option45_5.webp",
+          "source_image": true,
+          "image_width": 13.52
+        }
+      ],
+      "correct_option": 5,
+      "points": 3,
+      "image": "assets/exams/65/q45.webp",
+      "material_image": "assets/exams/65/material45.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 46,
+      "source_page": 11,
+      "question_text": "밑줄 그은 '이 전쟁' 중에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "(0 애치슨 라인이 발표되었다.",
+          "image": "assets/exams/65/option46_1.webp",
+          "source_image": true,
+          "image_width": 42.61
+        },
+        {
+          "number": 2,
+          "text": "부산이 임시 수도로 정해졌다.",
+          "image": "assets/exams/65/option46_2.webp",
+          "source_image": true,
+          "image_width": 46.8
+        },
+        {
+          "number": 3,
+          "text": "한미 상호 방위 조약이 맺어졌다.",
+          "image": "assets/exams/65/option46_3.webp",
+          "source_image": true,
+          "image_width": 50.99
+        },
+        {
+          "number": 4,
+          "text": "푸에블로호 나포 사건이 발생하였다.",
+          "image": "assets/exams/65/option46_4.webp",
+          "source_image": true,
+          "image_width": 56.13
+        },
+        {
+          "number": 5,
+          "text": "국가 보위 비상 대책 위원회가 설치되었다. 12",
+          "image": "assets/exams/65/option46_5.webp",
+          "source_image": true,
+          "image_width": 64.51
+        }
+      ],
+      "correct_option": 2,
+      "points": 1,
+      "image": "assets/exams/65/q46.webp",
+      "material_image": "assets/exams/65/material46.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 47,
+      "source_page": 12,
+      "question_text": "다음 상황이 나타난 시기를 연표에서 옳게 고른 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "1번 원문 보기",
+          "image": "assets/exams/65/option47_1.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 2,
+          "text": "2번 원문 보기",
+          "image": "assets/exams/65/option47_2.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 3,
+          "text": "3번 원문 보기",
+          "image": "assets/exams/65/option47_3.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 4,
+          "text": "4번 원문 보기",
+          "image": "assets/exams/65/option47_4.webp",
+          "source_image": true,
+          "image_width": 10.91
+        },
+        {
+          "number": 5,
+          "text": "5번 원문 보기",
+          "image": "assets/exams/65/option47_5.webp",
+          "source_image": true,
+          "image_width": 10.91
+        }
+      ],
+      "correct_option": 2,
+      "points": 3,
+      "image": "assets/exams/65/q47.webp",
+      "material_image": "assets/exams/65/material47.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 48,
+      "source_page": 12,
+      "question_text": "밑줄 그은 '정부' 시기에 있었던 사실로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "야당 총재가 국회의원직에서 제명되었다.",
+          "image": "assets/exams/65/option48_1.webp",
+          "source_image": true,
+          "image_width": 63.77
+        },
+        {
+          "number": 2,
+          "text": "5년 단임의 대통령 직선제 개헌이 이루어졌다.",
+          "image": "assets/exams/65/option48_2.webp",
+          "source_image": true,
+          "image_width": 71.0
+        },
+        {
+          "number": 3,
+          "text": "국가 재건 최고 회의를 기반으로 군정이 실시되었다.",
+          "image": "assets/exams/65/option48_3.webp",
+          "source_image": true,
+          "image_width": 79.83
+        },
+        {
+          "number": 4,
+          "text": "평화 통일론을 내세우던 진보당의 조봉암이 처형되었다.",
+          "image": "assets/exams/65/option48_4.webp",
+          "source_image": true,
+          "image_width": 85.1
+        },
+        {
+          "number": 5,
+          "text": "긴급 조지 철폐 등을 포함한 민주 구국 선언이 발표되었다. 3 • 1 12",
+          "image": "assets/exams/65/option48_5.webp",
+          "source_image": true,
+          "image_width": 92.7
+        }
+      ],
+      "correct_option": 2,
+      "points": 2,
+      "image": "assets/exams/65/q48.webp",
+      "material_image": "assets/exams/65/material48.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 49,
+      "source_page": 12,
+      "question_text": "다음 지역에 대한 탐구 활동으로 적절한 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "유형원이 반계수록을 저술한 장소를 답사한다.",
+          "image": "assets/exams/65/option49_1.webp",
+          "source_image": true,
+          "image_width": 69.66
+        },
+        {
+          "number": 2,
+          "text": "견훤이 아들 신검에 의해 유폐된 장소를 알아본다.",
+          "image": "assets/exams/65/option49_2.webp",
+          "source_image": true,
+          "image_width": 74.93
+        },
+        {
+          "number": 3,
+          "text": "동학 농민군이 정부와 화약을 맺은 장소를 조사한다.",
+          "image": "assets/exams/65/option49_3.webp",
+          "source_image": true,
+          "image_width": 78.04
+        },
+        {
+          "number": 4,
+          "text": "기묘사화로 유배된 조광조가 사사된 장소를 검색한다.",
+          "image": "assets/exams/65/option49_4.webp",
+          "source_image": true,
+          "image_width": 79.95
+        },
+        {
+          "number": 5,
+          "text": "임병찬이 의병을 일으킨 무성 서원이 있는 장소를 찾아본다.",
+          "image": "assets/exams/65/option49_5.webp",
+          "source_image": true,
+          "image_width": 88.45
+        }
+      ],
+      "correct_option": 3,
+      "points": 1,
+      "image": "assets/exams/65/q49.webp",
+      "material_image": "assets/exams/65/material49.webp"
+    },
+    {
+      "exam_round": 65,
+      "exam_level": "심화",
+      "question_number": 50,
+      "source_page": 12,
+      "question_text": "다음 뉴스가 보도된 정부 시기의 통일 정책으로 옳은 것은?",
+      "options": [
+        {
+          "number": 1,
+          "text": "남북 조절 위원회를 구성하였다.",
+          "image": "assets/exams/65/option50_1.webp",
+          "source_image": true,
+          "image_width": 49.91
+        },
+        {
+          "number": 2,
+          "text": "남북 공동 선언을 채택하였다. 6 • 15",
+          "image": "assets/exams/65/option50_2.webp",
+          "source_image": true,
+          "image_width": 54.34
+        },
+        {
+          "number": 3,
+          "text": "한반도 비핵화 공동 선언에 합의하였다.",
+          "image": "assets/exams/65/option50_3.webp",
+          "source_image": true,
+          "image_width": 60.32
+        },
+        {
+          "number": 4,
+          "text": "판문점에서 남북 정상 회담을 개최하였다.",
+          "image": "assets/exams/65/option50_4.webp",
+          "source_image": true,
+          "image_width": 64.51
+        },
+        {
+          "number": 5,
+          "text": "남북 이산가족 고향 방문을 최초로 실현하였다. 12",
+          "image": "assets/exams/65/option50_5.webp",
+          "source_image": true,
+          "image_width": 70.74
+        }
+      ],
+      "correct_option": 2,
+      "points": 2,
+      "image": "assets/exams/65/q50.webp",
+      "material_image": "assets/exams/65/material50.webp"
+    }
+  ]
+}

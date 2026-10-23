@@ -34,15 +34,15 @@ vm.runInContext(inline,context,{filename:'index.html'});
 const run = code=>vm.runInContext(code,context);
 (async()=>{
  assert.equal(run('screen'),'library');
- assert.equal((element('examCards').innerHTML.match(/class="exam-card"/g)||[]).length,11);
- for(let exam=79;exam>=70;exam--){
+ assert.equal((element('examCards').innerHTML.match(/class="exam-card"/g)||[]).length,24);
+ for(let exam=79;exam>=57;exam--){
   await run(`chooseExam(${exam})`);
   assert.equal(run('round'),exam);
   assert.equal(run('screen'),'home');
   assert.equal(run(`JSON.stringify(CATALOG.find(e=>e.round===${exam}).points)`),run('JSON.stringify(DATA.map(q=>q.points))'));
   const key=`khistory${exam}_mvp_v1`;
   for(let n=1;n<=50;n++){
-   run(`moveTo(${n});select(DATA[${n-1}].correct_option);submit()`);
+   run(`moveTo(${n});select(DATA[${n-1}].accept_all?1:DATA[${n-1}].correct_option);submit()`);
    assert.equal(run(`latest(${n}).correct`),true);
    assert.equal((element('choices').innerHTML.match(/class="choice-explanation"/g)||[]).length,5);
    assert.ok(!element('exbox').innerHTML.includes('검토 중'));
@@ -51,6 +51,15 @@ const run = code=>vm.runInContext(code,context);
   assert.equal(element('hScore').textContent,'100점');
   assert.equal(element('hDone').textContent,'50/50');
   assert.equal(element('hWrong').textContent,'0개');
+  if(exam===63){
+   for(let option=1;option<=5;option++){
+    run(`retry(42);select(${option});submit();view('analysis')`);
+    assert.equal(run('latest(42).correct'),true);
+    assert.equal(element('hScore').textContent,'100점');
+    assert.ok(element('fb').innerHTML.includes('전원 정답 처리'));
+    assert.ok(!element('choices').innerHTML.includes('right-tag'));
+   }
+  }
   run('retry(1);select(DATA[0].correct_option%5+1);submit();bookmark();view("wrong")');
   assert.equal(element('hWrong').textContent,'1개');
   assert.equal(run('state.bookmarks.includes(1)'),true);
@@ -69,6 +78,7 @@ const run = code=>vm.runInContext(code,context);
   assert.equal(run('state.bookmarks.length'),0);
   console.log(`${exam}: all 50 grades, five explanations, score, retry, wrong notes, bookmark, round isolation PASS`);
  }
+ await run('chooseExam(70)');
  // A failed or incomplete download must not switch the active exam or overwrite records.
  run('examCache.delete(70)');
  context.fetch=async()=>({ok:false});
@@ -81,5 +91,5 @@ const run = code=>vm.runInContext(code,context);
  assert.equal(storage.get('khistory80_mvp_v1'),original80);
  run("view('library')");
  assert.equal(run('screen'),'library');
- console.log('PASS: 500 correct submissions, 20 retries, persistence, protected 80th-exam records, load-failure guards');
+ console.log('PASS: 1,150 correct submissions, 46 retries, all five official-credit choices, persistence, protected 80th-exam records, load-failure guards');
 })().catch(error=>{console.error(error);process.exitCode=1});

@@ -8,10 +8,10 @@ from pathlib import Path
 from PIL import Image
 from import_exams import ROOT, answer_keys
 
-keys = answer_keys()
+keys = answer_keys(range(57, 80))
 count = 0
 assets = set()
-for exam in range(70, 80):
+for exam in range(57, 80):
     data = json.loads((ROOT / f'data/exams/{exam}.json').read_text(encoding='utf8'))
     details = json.loads((ROOT / f'data/explanations/{exam}.json').read_text(encoding='utf8'))
     questions = data['questions']
@@ -23,6 +23,11 @@ for exam in range(70, 80):
         n = q['question_number']
         assert all(q[k] == v for k, v in keys[exam][n].items()), (exam, n, 'official answer/points')
         assert q['exam_round'] == exam and q['exam_level'] == '심화'
+        if q.get('accept_all'):
+            assert (exam,n)==(63,42) and q['correct_option'] is None
+            assert '전원 정답' in q['answer_notice']
+        else:
+            assert q['correct_option'] in range(1,6)
         assert 1 <= q['source_page'] <= 12
         assert q['question_text'].endswith('?'), (exam, n, 'question heading')
         assert len(q['options']) == 5

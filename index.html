@@ -120,7 +120,7 @@ h1{margin:0 0 8px;font-size:30px;letter-spacing:-.9px}.maincard{padding:28px}.st
   <div class="library-heading"><p class="sectiontag">YOUR STUDY SPACE</p><h1>한국사, 한 회씩 차근차근.</h1><p class="muted">공부할 회차를 고르고, 나의 속도로 이어가세요.</p></div>
   <div class="library-label"><h2>기출문제</h2><span id="examCount">심화 · 11개 회차</span></div>
   <div class="exam-grid" id="examCards"></div>
-  <p class="library-note">제70회부터 제80회까지, 원하는 회차를 선택하세요.</p><p class="muted hide" id="examLoadStatus" role="status"></p>
+  <p class="library-note">제57회부터 제80회까지, 원하는 회차를 선택하세요.</p><p class="muted hide" id="examLoadStatus" role="status"></p>
 </section>
 <section id="home" class="view overview">
   <div class="card maincard">
@@ -212,7 +212,7 @@ function view(name){
 function moveTo(n){idx=Math.max(1,Math.min(50,n));choice=0;replay=false;view('quiz')}
 function step(d){moveTo(idx+d)}
 function select(n){if(latest(idx)&&!replay)return;choice=n;drawQuiz(false)}
-function submit(){if(!choice)return;const q=DATA[idx-1];state.attempts[idx]??=[];state.attempts[idx].push({option:choice,correct:choice===q.correct_option,correct_option:q.correct_option,at:new Date().toISOString()});replay=false;save();drawQuiz(false)}
+function submit(){if(!choice)return;const q=DATA[idx-1];state.attempts[idx]??=[];state.attempts[idx].push({option:choice,correct:!!q.accept_all||choice===q.correct_option,correct_option:q.correct_option,at:new Date().toISOString()});replay=false;save();drawQuiz(false)}
 function retry(n){idx=n;choice=0;replay=true;view('quiz')}
 function bookmark(){const i=state.bookmarks.indexOf(idx);if(i>=0)state.bookmarks.splice(i,1);else state.bookmarks.push(idx);save();draw()}
 function removeBookmark(n){state.bookmarks=state.bookmarks.filter(x=>Number(x)!==n);save();draw();}
@@ -232,7 +232,7 @@ function drawQuiz(resetScroll){
  el('stembox').innerHTML=`<h2 class="question-text">${escape(q.question_text)}</h2><div class="stemwrap"><img src="${q.material_image}" alt="${idx}번 문제의 사료와 그림" onclick="openImageZoom(this.src)" title="자료 확대" /></div>`;
  el('choices').innerHTML=q.options.map(o=>{
    const isPicked=submitted?a.option===o.number:choice===o.number;
-   const isCorrect=submitted&&o.number===q.correct_option;
+   const isCorrect=submitted&&!q.accept_all&&o.number===q.correct_option;
    const isWrong=submitted&&isPicked&&!a.correct;
    const cls=submitted?(isCorrect?'correct':isWrong?'incorrect':''):(isPicked?'selected':'');
    const isPhoto=!!o.image;
@@ -240,7 +240,7 @@ function drawQuiz(resetScroll){
    const why=submitted?`<div class="choice-explanation"><strong class="explanation-heading">해설 - </strong>${escape((CHOICE_EX[idx]||[])[o.number-1]||'해설을 검토하고 있습니다.')}</div>`:'';
    return `<div class="option-unit ${cls} ${isPhoto?'photo-option':''} ${o.source_image?'source-option':''}"><button class="choice ${cls}" ${submitted?'disabled':''} onclick="select(${o.number})" aria-label="${o.number}번 보기">${isPhoto?'':`<span class="bubble">${sym[o.number]}</span>`}<span class="ctxt">${o.image?`<img class="choiceimg" ${o.source_image?`style="width:${o.image_width||100}%"`:""} src="${o.image}" alt="${o.number}번 원문 보기">`:escape(o.text)}</span></button>${label?`<div class="answer-tags">${label}</div>`:''}${why}</div>`;
  }).join('');
- el('fb').innerHTML=submitted?`<div class="feedback ${a.correct?'':'bad'}"><b>${a.correct?'✓ 정답입니다.':'오답입니다. 정답은 '+sym[q.correct_option]+'번입니다.'}</b></div>`:'';
+ el('fb').innerHTML=submitted&&q.accept_all?`<div class="feedback"><b>${escape(q.answer_notice)}</b><div class="feedback-sub">공식 문항 오류로 제출한 보기에 관계없이 ${q.points}점을 인정합니다.</div></div>`:submitted?`<div class="feedback ${a.correct?'':'bad'}"><b>${a.correct?'✓ 정답입니다.':'오답입니다. 정답은 '+sym[q.correct_option]+'번입니다.'}</b></div>`:'';
  el('submitrow').innerHTML=submitted?`<button class="primary" onclick="step(1)" ${idx===50?'disabled':''}>다음 문제 →</button><button class="outline" onclick="retry(${idx})">다시 풀기</button>`:`<button class="primary" onclick="submit()" ${choice?'':'disabled'}>정답 제출</button>`;
  el('exbox').innerHTML=submitted?`<section class="solution"><div class="solution-title">핵심 정리 <span>자체 작성 학습 해설</span></div><div class="solution-summary">${escape(EX[idx]||'핵심 해설 검토 중')}</div></section>`:'';
  el('bookmark').innerText=state.bookmarks.includes(idx)?'★ 북마크':'☆ 북마크';

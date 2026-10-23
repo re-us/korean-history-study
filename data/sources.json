@@ -105,6 +105,145 @@
       "name": "제75회 심화 정답표.pdf",
       "pages": 1,
       "sha256": "9ecff7c82b2f0343d3e6fd9dec389431411257e00fd8a53b11d519cb58c5dad1"
+    },
+    {
+      "name": "57회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "3a69a598abb12338aa6b006e7d314f8e802d8b4711628d74726315125a273234"
+    },
+    {
+      "name": "58회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "ea2f7bc1ed520e2127037ce7edfb82ec30812e671179a1ec6f332eff47bd4454"
+    },
+    {
+      "name": "58회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "1ae7ce85165c1d9412b12f57d4339b71d0ac1e514861d9efb6ff9350a3a2209d"
+    },
+    {
+      "name": "59회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "5bc8d63f62d10da22219828770a02d5c8a075da4a0efff0885a4556015ef411f"
+    },
+    {
+      "name": "60회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "a9307f7307d88b7179e55c1750a79788328110d81c2e5b21e7209376ddeeb71d"
+    },
+    {
+      "name": "61회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "80b4a83a1bd11208302d3f447cbb3025f6225d98953e98a57196dd29c4604f09"
+    },
+    {
+      "name": "62회 한국사능력검정시험 문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "ecae832581e2ebcacc51df30800c1495175e14f4c67902363dd49c74c207e963"
+    },
+    {
+      "name": "63회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "42f3f331ce2fb5fb4ff267b18ab255bb4370f5f187f6464ca63f681c9ce38b14"
+    },
+    {
+      "name": "64회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "483dbf4e35c9888d6d36cbd0495db34c506ef06f2b1f64f31c3931b2f07332a0"
+    },
+    {
+      "name": "66회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "d00670a2b083d47b66d6e5ff1ad32c1765f493bd9d98230065c2edaefcaa8d18"
+    },
+    {
+      "name": "66회 한국사_정답표(심화).pdf",
+      "pages": 1,
+      "sha256": "591619732675e6f2655bbea597e42e08280c500a74265b98acacaa882da5a839"
+    },
+    {
+      "name": "67회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "0b07c5ac8a53be69eb839afd48ac044170a3b77a037f4ba48bdb629f02df3e9e"
+    },
+    {
+      "name": "67회 한국사_정답표(심화).pdf",
+      "pages": 1,
+      "sha256": "f2dd107d03de8915f61a0d3dc75873661fb36e01fa77dedd1b87b81efe02d6b8"
+    },
+    {
+      "name": "68회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "a407b26f559eeeed787b1e2d2e99f96532c9e7673372efd82aa0bd8362864fa9"
+    },
+    {
+      "name": "68회 한국사_정답표(심화).pdf",
+      "pages": 1,
+      "sha256": "37f0db72ac12ecf607fb8e954a08f9283b5dcb41ce5631edbebe996f02d07d75"
+    },
+    {
+      "name": "69회 한국사_문제지(심화).pdf",
+      "pages": 12,
+      "sha256": "9656cfbd40c3ed2b9f13ebb96e9a347bad87db8511dfe8954857baf7ccc91a26"
+    },
+    {
+      "name": "69회 한국사_정답표(심화).pdf",
+      "pages": 1,
+      "sha256": "8596e629436c89d05719cb063470cdef4217df5954e39c7f141311542d5f6183"
+    },
+    {
+      "name": "제57회_심화_정답표.pdf",
+      "pages": 1,
+      "sha256": "c3b6ec8ed0c8cf403debeb3a6675871d7fef1293b189ca394e04224c69fc8b70"
+    },
+    {
+      "name": "제59회 심화 정답표(공개용).pdf",
+      "pages": 1,
+      "sha256": "54861cfb6beb0d046941016efdc87fa1b04b63c7c9d07b003e4de338e392f07f"
+    },
+    {
+      "name": "제60회 정답표(심화).pdf",
+      "pages": 1,
+      "sha256": "4a00db57bd3f78f1d46bd5ec07fa812d27d586c4dcb7e7b3e66a6785c936534a"
+    },
+    {
+      "name": "제61회 한국사능력검정시험 정답표(심화).pdf",
+      "pages": 1,
+      "sha256": "f8235a345606d3a775d924ca504449541ce34bd287c663c455a5371ec6341491"
+    },
+    {
+      "name": "제62회 한국사능력검정시험(심화) 정답표.pdf",
+      "pages": 1,
+      "sha256": "0a22ea4bf355384e4d1c734ab1018ca24861c585db4b04cca94e2391adca70b8"
+    },
+    {
+      "name": "제63회 한국사능력검정시험 심화 정답표(정정).pdf",
+      "pages": 1,
+      "sha256": "8fd315a7e3b1b371ccebaa491a98bea369bd3005c813c069352ba369609f3274"
+    },
+    {
+      "name": "제64회 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "ea6742c2dec57e129b87ebba734a73e4527126390a84ed2923ed0a24d67d3280"
+    },
+    {
+      "name": "제65회 한국사능력검정시험 심화 문제지.pdf",
+      "pages": 12,
+      "sha256": "a50a6611da47601837319ba912a756586a2568634e925f4807fd7f46d6e14753"
+    },
+    {
+      "name": "제65회 한국사능력검정시험 심화 정답표.pdf",
+      "pages": 1,
+      "sha256": "12d805fdc905a3777e12ba5559bec57bcaf2731ec6ac9b4d754df6e86d9629ce"
+    }
+  ],
+  "official_corrections": [
+    {
+      "round": 63,
+      "question": 42,
+      "source": "제63회 한국사능력검정시험 심화 정답표(정정).pdf",
+      "rule": "정답 없음·응시자 전원 정답 처리",
+      "points": 2
     }
   ]
 }
