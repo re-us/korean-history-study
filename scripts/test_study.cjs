@@ -21,7 +21,7 @@ function element(id) {
  return elements.get(id);
 }
 const context = vm.createContext({console,Date,Map,Set,JSON,Promise,
- document:{getElementById:element,addEventListener(){},body:{style:{}},querySelectorAll:()=>['library','home','quiz','wrong','bookmarks','analysis'].map(element)},
+ document:{getElementById:element,addEventListener(){},body:{style:{}},querySelectorAll:()=>['library','home','quiz','wrong','allWrong','bookmarks','analysis'].map(element)},
  localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},
  fetch:async file=>({ok:fs.existsSync(path.join(root,file)),json:async()=>JSON.parse(read(file))}),
 });
@@ -29,7 +29,7 @@ context.window = context;
 context.scrollTo = ()=>{};
 context.alert = ()=>{};
 context.confirm = ()=>{throw Error('Unexpected destructive operation')};
-for (const file of ['data/exam_catalog.js','complete_questions.js','explanations.js','choice_explanations.js']) vm.runInContext(read(file),context,{filename:file});
+for (const file of ['data/exam_catalog.js','complete_questions.js','explanations.js','choice_explanations.js','study_tools.js','study_features.js']) vm.runInContext(read(file),context,{filename:file});
 vm.runInContext(inline,context,{filename:'index.html'});
 const run = code=>vm.runInContext(code,context);
 (async()=>{
@@ -78,6 +78,50 @@ const run = code=>vm.runInContext(code,context);
   assert.equal(run('state.bookmarks.length'),0);
   console.log(`${exam}: all 50 grades, five explanations, score, retry, wrong notes, bookmark, round isolation PASS`);
  }
+ // Global review includes old records without migration and resolved history on demand.
+ await run('openAllWrong()');
+ assert.ok(element('allWrongList').innerHTML.includes('제80회 1번'));
+ assert.ok(element('allWrongSummary').textContent.startsWith('1문항'));
+ element('wrongEra').value='3';run('drawAllWrong()');assert.ok(element('allWrongSummary').textContent.startsWith('0문항'));
+ element('wrongEra').value='0';run('drawAllWrong()');assert.ok(element('allWrongSummary').textContent.startsWith('1문항'));
+ element('wrongEra').value='all';
+ element('includeResolved').checked=true;run('drawAllWrong()');
+ assert.ok(element('allWrongList').innerHTML.includes('복습 완료'));
+ element('includeResolved').checked=false;
+ for(let i=0;i<3;i++){
+  await run('createMock()');
+  assert.ok(run("typeof round==='string'&&round.startsWith('mock-')"));
+  const mockId=run('round');
+  assert.equal(run('DATA.length'),50);
+  assert.equal(run('DATA.reduce((n,q)=>n+q.points,0)'),100);
+  assert.equal(run('new Set(DATA.map(q=>`${q.source_round}:${q.source_number}`)).size'),50);
+  assert.equal(run('DATA.some(q=>q.accept_all)'),false);
+  run('moveTo(1);select(DATA[0].correct_option%5+1);submit();bookmark()');
+  assert.equal(run('latest(1).correct'),false);
+  await run('openAllWrong()');
+  assert.ok(element('allWrongList').innerHTML.includes(`openWrongQuestion('${mockId}',1,true)`));
+  await run(`openMock('${mockId}')`);
+  assert.equal(run('latest(1).correct'),false);
+  assert.equal(run('state.bookmarks.includes(1)'),true);
+  run('retry(1);select(DATA[0].correct_option);submit()');
+  for(let n=2;n<=50;n++)run(`moveTo(${n});select(DATA[${n-1}].correct_option);submit()`);
+  run('view("analysis")');assert.equal(element('hScore').textContent,'100점');
+ }
+ assert.equal(run('readMocks().length'),3);
+ const mockCatalog=storage.get('khistory_mock_catalog_v1');
+ const realFetch=context.fetch;
+ context.fetch=async()=>({ok:false});run('examCache.delete(57)');
+ await run('createMock()');
+ assert.equal(storage.get('khistory_mock_catalog_v1'),mockCatalog);
+ assert.ok(element('mockStatus').textContent.includes('생성하지 못했습니다'));
+ context.fetch=realFetch;
+ const cancelled=run('createMock()');await run('chooseExam(80)');await cancelled;
+ assert.equal(run('round'),80);assert.equal(storage.get('khistory_mock_catalog_v1'),mockCatalog);
+ // Broken individual catalogue rows must not hide valid stored papers.
+ storage.set('khistory_mock_catalog_v1',JSON.stringify([...JSON.parse(mockCatalog),null,{id:'mock-123-broken',name:'broken',refs:Array(50).fill(null)}]));
+ assert.equal(run('readMocks().length'),3);storage.set('khistory_mock_catalog_v1',mockCatalog);
+ assert.equal(storage.get('khistory80_mvp_v1'),original80);
+ console.log('PASS: 3 persistent 100-point mocks, source references, global wrong review, resolved filter, failed generation preservation');
  await run('chooseExam(70)');
  // A failed or incomplete download must not switch the active exam or overwrite records.
  run('examCache.delete(70)');

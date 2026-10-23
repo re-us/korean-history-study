@@ -110,6 +110,8 @@ h1{margin:0 0 8px;font-size:30px;letter-spacing:-.9px}.maincard{padding:28px}.st
 .overview{max-width:1024px;margin:12px auto}.overview-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}.overview-heading h1{font-size:32px}.overview-heading .muted{margin:7px 0 0}.overview-heading .exam-icon{width:52px;height:52px;border-radius:16px}.study-progress{height:5px;background:#e9ebef;border-radius:8px;overflow:hidden;margin-top:24px}.study-progress>div{height:100%;background:var(--blue);border-radius:8px}.progress-caption{display:flex;justify-content:space-between;margin:9px 0 0;color:#86868b;font-size:12px}.overview .statline{gap:10px}.overview .stat{padding:16px;min-width:0}.overview .stat b{font-size:28px;margin-top:6px}.overview .actions{margin-top:24px}.review-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:16px}.review-card{padding:20px;border:1px solid #e8e8ed;background:#fff;border-radius:18px;text-align:left;color:var(--ink)}.review-card:hover{background:#fafafc;border-color:#ccd6e2}.review-card strong{font-size:15px;font-weight:600;display:block}.review-card span{display:block;font-size:12px;color:#86868b;margin-top:8px;line-height:1.5}.overview-bottom{display:flex;justify-content:flex-end;margin-top:12px}.overview-bottom .resetbtn{border:0;background:transparent;font-size:12px;padding:8px;color:#86868b}.overview-bottom .resetbtn:hover{color:#c0392b;background:#fff0ee}
 @media(max-width:700px){.library{padding:24px 6px}.library-heading h1{font-size:29px}.exam-grid{grid-template-columns:1fr}.exam-card{padding:22px}.overview{margin:8px 0}.overview .maincard{padding:20px}.overview-heading h1{font-size:27px}.overview .stat{padding:12px 9px}.overview .stat b{font-size:23px}.overview .stat .muted{font-size:12px}.review-grid{grid-template-columns:1fr;gap:8px}.review-card{padding:16px}.review-card span{margin-top:5px}.overview .actions{gap:8px}.overview .actions button{flex:1;padding:12px 10px;font-size:13px}.breadcrumbs{width:calc(100% - 24px);margin-top:8px}.question-text{font-size:20px}.overview .statline{flex-wrap:nowrap}}
 .option-unit.source-option .choiceimg{max-height:none;margin:0}.option-unit.source-option .choice{padding:10px 12px}.option-unit.source-option .ctxt{display:block}
+
+.study-shortcuts{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px}.study-shortcut{padding:22px;text-align:left;border:1px solid var(--line,#e5e9f1);border-radius:20px;background:#fff}.study-shortcut h2{font-size:20px;margin:6px 0 9px}.study-shortcut p{line-height:1.6}.era-chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}.era-chips span{background:#f5f6fa;padding:9px 12px;border-radius:12px;font-size:13px}.review-entry{padding:20px 0;border-top:1px solid #e5e9f1}.review-entry h2{font-size:18px;line-height:1.5}.review-actions{display:flex;gap:8px;margin-top:12px}.review-filters{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin:20px 0}.review-filters select{padding:10px;border:1px solid #e5e9f1;border-radius:12px;background:white;font:inherit}.status-text{line-height:1.6;color:var(--blue)}@media(max-width:650px){.study-shortcuts{grid-template-columns:1fr}}
 </style></head>
 <body>
 <div class="top"><button class="smallbtn homebtn" onclick="view('library')" aria-label="회차 선택 홈으로" title="홈"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m3 10 9-7 9 7"/><path d="M5 9v12h14V9"/><path d="M9 21v-7h6v7"/></svg></button><div class="brand">한국사 STUDY</div><div class="topright hide" id="quizHeader"><span id="headcount" class="mutedtxt">문제 1 / 50</span><button class="smallbtn" onclick="openNumbers()" title="문항 선택">☷</button></div></div>
@@ -118,10 +120,13 @@ h1{margin:0 0 8px;font-size:30px;letter-spacing:-.9px}.maincard{padding:28px}.st
 <main class="stage">
 <section id="library" class="view active library">
   <div class="library-heading"><p class="sectiontag">YOUR STUDY SPACE</p><h1>한국사, 한 회씩 차근차근.</h1><p class="muted">공부할 회차를 고르고, 나의 속도로 이어가세요.</p></div>
-  <div class="library-label"><h2>기출문제</h2><span id="examCount">심화 · 11개 회차</span></div>
+  <div class="study-shortcuts"><div class="study-shortcut"><p class="sectiontag">PRACTICE</p><h2>나만의 100점 모의고사</h2><p class="muted">등록 기출의 시대별 비율을 맞춘 50문항. 원문·배점·해설을 그대로 활용합니다.</p><button class="primary" id="createMock" onclick="createMock()">모의고사 만들기</button><p id="mockStatus" class="status-text" role="status"></p></div><button class="study-shortcut" onclick="openAllWrong()"><p class="sectiontag">REVIEW</p><h2>전체 오답노트</h2><p class="muted">모든 회차와 자체 모의고사의 틀린 문제를 모아 복습하세요.</p><strong id="allWrongCount"></strong></button></div>
+  <div id="mockList"></div>
+  <div class="library-label"><h2>기출문제</h2><span id="examCount">심화 · 24개 회차</span></div>
   <div class="exam-grid" id="examCards"></div>
   <p class="library-note">제57회부터 제80회까지, 원하는 회차를 선택하세요.</p><p class="muted hide" id="examLoadStatus" role="status"></p>
 </section>
+<section id="allWrong" class="view"><div class="card maincard"><p class="sectiontag">MY REVIEW</p><h1>전체 오답노트</h1><div class="review-filters"><select id="wrongEra" aria-label="오답 시대 필터" onchange="drawAllWrong()"></select><label><input id="includeResolved" type="checkbox" onchange="drawAllWrong()"> 복습 완료한 문제도 보기</label></div><p id="allWrongSummary" class="muted"></p><p id="reviewStatus" class="status-text" role="status"></p><div id="allWrongList"></div></div></section>
 <section id="home" class="view overview">
   <div class="card maincard">
     <div class="overview-heading"><div><p class="sectiontag">MY PROGRESS</p><h1 id="roundTitle">제80회 심화</h1><p class="muted">오늘의 한 문제가 쌓여, 나의 실력이 됩니다.</p></div><span class="exam-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="m5 13 4 4L19 7"/></svg></span></div>
@@ -129,7 +134,7 @@ h1{margin:0 0 8px;font-size:30px;letter-spacing:-.9px}.maincard{padding:28px}.st
     <div class="statline"><div class="stat"><span class="muted">완료 문항</span><b id="hDone">0/50</b></div><div class="stat"><span class="muted">현재 점수</span><b id="hScore">0점</b></div><div class="stat"><span class="muted">복습 필요</span><b id="hWrong">0개</b></div></div>
     <div class="actions"><button class="primary" id="continueStudy" onclick="moveTo(nextUnsolved())">문제풀기 시작</button><button class="outline" onclick="openNumbers()">전체 문항 보기</button></div>
   </div>
-  <div class="review-grid"><button class="review-card" onclick="view('wrong')"><strong>오답노트 <span id="reviewCount" style="display:inline;color:var(--blue)"></span></strong><span>틀린 문제를 다시 살펴보세요.</span></button><button class="review-card" onclick="view('bookmarks')"><strong>북마크 <span id="homeBookCount" style="display:inline;color:var(--blue)"></span></strong><span>저장해 둔 문제를 모아보세요.</span></button><button class="review-card" onclick="view('analysis')"><strong>학습 분석</strong><span>점수와 정답률을 확인하세요.</span></button></div>
+  <div id="mockBreakdown"></div><div class="review-grid"><button class="review-card" onclick="view('wrong')"><strong>오답노트 <span id="reviewCount" style="display:inline;color:var(--blue)"></span></strong><span>틀린 문제를 다시 살펴보세요.</span></button><button class="review-card" onclick="view('bookmarks')"><strong>북마크 <span id="homeBookCount" style="display:inline;color:var(--blue)"></span></strong><span>저장해 둔 문제를 모아보세요.</span></button><button class="review-card" onclick="view('analysis')"><strong>학습 분석</strong><span>점수와 정답률을 확인하세요.</span></button></div>
   <div class="overview-bottom"><button class="resetbtn" onclick="resetProgress()">풀이 기록 초기화</button></div>
 </section>
 <section id="quiz" class="view">
@@ -151,7 +156,7 @@ h1{margin:0 0 8px;font-size:30px;letter-spacing:-.9px}.maincard{padding:28px}.st
   </div>
 </section>
 <section id="wrong" class="view">
-  <div class="card maincard"><p class="sectiontag">REVIEW</p><h1>오답노트</h1><p class="muted">마지막 제출 결과에서 틀린 문제를 표시합니다.</p><div id="wronglist"></div></div>
+  <div class="card maincard"><p class="sectiontag">REVIEW</p><h1>오답노트</h1><p class="muted">이 회차의 마지막 제출 결과에서 틀린 문제를 표시합니다. <button class="link" onclick="openAllWrong()">전체 회차 오답 모아보기 →</button></p><div id="wronglist"></div></div>
 </section>
 <section id="bookmarks" class="view">
   <div class="card maincard"><p class="sectiontag">SAVED QUESTIONS</p><h1>북마크 모아보기</h1><p class="bookmark-count" id="bookmarkCount"></p><div class="bookmark-list" id="bookmarklist"></div></div>
@@ -164,6 +169,8 @@ h1{margin:0 0 8px;font-size:30px;letter-spacing:-.9px}.maincard{padding:28px}.st
 <div class="modalback hide" id="overlay" onclick="if(event.target===this)closeNumbers()"><div class="modal"><div style="display:flex;align-items:center;justify-content:space-between"><h2 style="margin:0">문항 선택</h2><button class="smallbtn" onclick="closeNumbers()">✕</button></div><p class="muted">번호를 눌러 해당 문제로 이동합니다.</p><div class="numbers" id="numbers"></div></div></div>
 <div class="image-zoom-layer" id="imageZoom" hidden role="dialog" aria-modal="true" aria-label="사료 이미지 확대"><button class="image-zoom-close" onclick="closeImageZoom()">✕ 닫기</button><p class="image-zoom-hint">확대된 사료 · 손가락으로 이동해 읽을 수 있습니다</p><div class="image-zoom-scroll" id="imageZoomScroll"><img id="imageZoomImg" alt="확대된 문제 자료"/></div></div>
 <script src="data/exam_catalog.js"></script><script src="complete_questions.js"></script><script src="explanations.js"></script><script src="choice_explanations.js"></script>
+<script src="study_tools.js"></script>
+<script src="study_features.js"></script>
 <script>
 function openImageZoom(src){const layer=document.getElementById('imageZoom');document.getElementById('imageZoomImg').src=src;layer.hidden=false;document.body.style.overflow='hidden';const scroll=document.getElementById('imageZoomScroll');scroll.scrollLeft=0;scroll.scrollTop=0}
 function closeImageZoom(){document.getElementById('imageZoom').hidden=true;document.body.style.overflow=''}
@@ -175,23 +182,25 @@ function drawLibrary(){
  el('examCards').innerHTML=CATALOG.map(exam=>{
   const saved=exam.round===round?state:readState(exam.round),answered=exam.points.map((points,i)=>({points,attempt:(saved.attempts[i+1]||[]).at(-1)})).filter(x=>x.attempt),score=answered.reduce((sum,x)=>sum+(x.attempt.correct?x.points:0),0);
   return `<button class="exam-card" onclick="chooseExam(${exam.round})" aria-label="제${exam.round}회 심화 학습 현황 열기"><span class="exam-top"><span class="exam-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="5" y="3" width="14" height="18" rx="3"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span><span class="exam-badge">심화</span></span><span class="exam-name">제${exam.round}회</span><span class="exam-meta">한국사능력검정시험 · ${exam.points.length}문항 · 100점</span><span class="exam-divider" style="display:block"></span><span class="exam-bottom"><span>${answered.length?`${answered.length} / ${exam.points.length}문항 완료 · ${score}점`:'학습을 시작해 보세요'}</span><span class="exam-open">학습 현황 <span aria-hidden="true">↗</span></span></span></button>`;
- }).join('')
+ }).join('');drawStudyFeatures()
+}
+async function loadExam(examRound){
+ if(!CATALOG.some(e=>e.round===examRound))throw Error('등록되지 않은 회차입니다.');
+ let exam=examCache.get(examRound);if(exam)return exam;
+ const [qResponse,eResponse]=await Promise.all([fetch(`data/exams/${examRound}.json`),fetch(`data/explanations/${examRound}.json`)]);
+ if(!qResponse.ok||!eResponse.ok)throw Error('회차를 불러오지 못했습니다.');
+ const data=await qResponse.json(),details=await eResponse.json();
+ if(data.round!==examRound||!Array.isArray(data.questions)||data.questions.length!==50||data.questions.reduce((n,q)=>n+q.points,0)!==100||data.questions.some((q,i)=>q.question_number!==i+1||q.exam_round!==examRound||q.options.length!==5||!details[i+1]?.summary||details[i+1].choices?.length!==5||details[i+1].choices.some(why=>typeof why!=='string'||!why.trim())))throw Error('회차 데이터가 불완전합니다.');
+ exam={questions:data.questions,explanations:Object.fromEntries(Object.entries(details).map(([n,v])=>[n,v.summary])),choice_explanations:Object.fromEntries(Object.entries(details).map(([n,v])=>[n,v.choices]))};examCache.set(examRound,exam);return exam;
+}
+function activateExam(examRound,exam,title){
+ round=examRound;DATA=exam.questions;EX=exam.explanations;CHOICE_EX=exam.choice_explanations;KEY=`khistory${round}_mvp_v1`;state=readState(round);idx=1;choice=0;replay=false;
+ el('roundTitle').textContent=title;el('roundCrumb').textContent=title;el('mockBreakdown').innerHTML='';view('home');
 }
 async function chooseExam(examRound){
  const token=++examLoadToken,status=el('examLoadStatus');status.classList.remove('hide');status.textContent=`제${examRound}회 문제를 불러오고 있습니다.`;
- try{
-  let exam=examCache.get(examRound);
-  if(!exam){
-   const [qResponse,eResponse]=await Promise.all([fetch(`data/exams/${examRound}.json`),fetch(`data/explanations/${examRound}.json`)]);
-   if(!qResponse.ok||!eResponse.ok)throw Error('load');
-   const data=await qResponse.json(),details=await eResponse.json();
-   if(data.round!==examRound||!Array.isArray(data.questions)||data.questions.length!==50||data.questions.some((q,i)=>q.question_number!==i+1||q.options.length!==5||!details[i+1]?.summary||details[i+1].choices?.length!==5||details[i+1].choices.some(why=>typeof why!=='string'||!why.trim())))throw Error('invalid');
-   exam={questions:data.questions,explanations:Object.fromEntries(Object.entries(details).map(([n,v])=>[n,v.summary])),choice_explanations:Object.fromEntries(Object.entries(details).map(([n,v])=>[n,v.choices]))};examCache.set(examRound,exam)
-  }
-  if(token!==examLoadToken)return;
-  round=examRound;DATA=exam.questions;EX=exam.explanations;CHOICE_EX=exam.choice_explanations;KEY=`khistory${round}_mvp_v1`;state=readState(round);idx=1;choice=0;replay=false;
-  el('roundTitle').textContent=`제${round}회 심화`;el('roundCrumb').textContent=`제${round}회 심화`;status.classList.add('hide');view('home');
- }catch{if(token===examLoadToken)status.textContent='문제를 불러오지 못했습니다. 연결을 확인한 뒤 회차를 다시 선택해 주세요.'}
+ try{const exam=await loadExam(examRound);if(token!==examLoadToken)return false;activateExam(examRound,exam,`제${examRound}회 심화`);status.classList.add('hide');return true}
+ catch{if(token===examLoadToken)status.textContent='문제를 불러오지 못했습니다. 연결을 확인한 뒤 회차를 다시 선택해 주세요.';return false}
 }
 function resetProgress(){
  const count=Object.values(state.attempts).filter(a=>Array.isArray(a)&&a.length).length;
@@ -201,9 +210,9 @@ function resetProgress(){
 }
 function nextUnsolved(){return DATA.find(q=>!latest(q.question_number))?.question_number||1}
 function view(name){
- screen=name;document.querySelectorAll('.view').forEach(e=>e.classList.toggle('active',e.id===name));
+ if(name==='library')examLoadToken++;screen=name;document.querySelectorAll('.view').forEach(e=>e.classList.toggle('active',e.id===name));
  ['quizHeader','quizProgress','quizTools'].forEach(id=>el(id).classList.toggle('hide',name!=='quiz'));
- el('breadcrumbs').classList.toggle('hide',name==='library');
+ el('breadcrumbs').classList.toggle('hide',['library','allWrong'].includes(name));
  const labels={quiz:'문제풀이',wrong:'오답노트',bookmarks:'북마크',analysis:'학습 분석'};
  el('pageCrumb').textContent=labels[name]?' / '+labels[name]:'';el('pageCrumb').classList.toggle('hide',!labels[name]);
  if(name==='home'){el('roundCrumb').setAttribute('aria-current','page');el('pageCrumb').removeAttribute('aria-current')}else{el('roundCrumb').removeAttribute('aria-current');el('pageCrumb').setAttribute('aria-current','page')}
@@ -228,8 +237,8 @@ function drawBookmarks(){
 }
 function drawQuiz(resetScroll){
  const q=DATA[idx-1],a=replay?null:latest(idx),submitted=!!a;
- el('qlabel').textContent=`한국사능력검정시험 · 심화 제${round}회 · ${idx}번 (${q.points}점)`;
- el('stembox').innerHTML=`<h2 class="question-text">${escape(q.question_text)}</h2><div class="stemwrap"><img src="${q.material_image}" alt="${idx}번 문제의 사료와 그림" onclick="openImageZoom(this.src)" title="자료 확대" /></div>`;
+ el('qlabel').textContent=typeof round==='number'?`한국사능력검정시험 · 심화 제${round}회 · ${idx}번 (${q.points}점)`:`${el('roundTitle').textContent} · ${idx}번 (${q.points}점) · 출처: 제${q.source_round}회 ${q.source_number}번`;
+ el('stembox').innerHTML=`<h2 class="question-text">${escape(q.question_text)}</h2><div class="stemwrap"><img src="${q.material_image}" alt="${idx}번 문제의 사료와 그림" onclick="openImageZoom(this.src)" title="자료 확대" /></div><button class="link" onclick="openImageZoom(\'${q.image}\')">원본 문항 보기 ↗</button>`;
  el('choices').innerHTML=q.options.map(o=>{
    const isPicked=submitted?a.option===o.number:choice===o.number;
    const isCorrect=submitted&&!q.accept_all&&o.number===q.correct_option;
@@ -248,7 +257,7 @@ function drawQuiz(resetScroll){
  el('prev').disabled=idx===1;el('next').disabled=idx===50;
  if(resetScroll)window.scrollTo(0,0);
 }
-function draw(){if(screen==='library')drawLibrary();if(screen==='quiz')drawQuiz(false);drawBookmarks();let done=DATA.filter(q=>latest(q.question_number)),wrong=done.filter(q=>!latest(q.question_number).correct),score=done.reduce((v,q)=>v+(latest(q.question_number).correct?q.points:0),0);el('homeProgress').style.width=(done.length*2)+'%';el('studyProgress').setAttribute('aria-valuenow',done.length);el('progressCaption').textContent=`${done.length} / 50문항`;el('continueStudy').textContent=done.length===50?'전체 문제 다시 보기':done.length?'이어서 풀기':'문제풀기 시작';el('reviewCount').textContent=wrong.length?wrong.length:'';el('hDone').textContent=`${done.length}/50`;el('hScore').textContent=`${score}점`;el('hWrong').textContent=`${wrong.length}개`;el('wronglist').innerHTML=wrong.length?wrong.map(q=>`<div class="item"><div><b>${q.question_number}번</b> <span class="muted">${q.points}점 · 선택 ${sym[latest(q.question_number).option]} / 정답 ${sym[q.correct_option]}</span></div><button class="outline" onclick="retry(${q.question_number})">다시 풀기</button></div>`).join(''):'틀린 문제가 없습니다.';el('analysistxt').innerHTML=`<div class="statline"><div class="stat"><span class="muted">완료</span><b>${done.length}/50</b></div><div class="stat"><span class="muted">정답률</span><b>${done.length?Math.round((done.length-wrong.length)/done.length*100):0}%</b></div><div class="stat"><span class="muted">현재 점수</span><b>${score} / 100</b></div></div><p class="muted" style="margin-top:20px">미풀이 문항은 0점으로 처리합니다. 정답률은 마지막 풀이 기준입니다.</p>`}
+function draw(){if(screen==='library')drawLibrary();if(screen==='allWrong')drawAllWrong();if(screen==='quiz')drawQuiz(false);drawBookmarks();let done=DATA.filter(q=>latest(q.question_number)),wrong=done.filter(q=>!latest(q.question_number).correct),score=done.reduce((v,q)=>v+(latest(q.question_number).correct?q.points:0),0);el('homeProgress').style.width=(done.length*2)+'%';el('studyProgress').setAttribute('aria-valuenow',done.length);el('progressCaption').textContent=`${done.length} / 50문항`;el('continueStudy').textContent=done.length===50?'전체 문제 다시 보기':done.length?'이어서 풀기':'문제풀기 시작';el('reviewCount').textContent=wrong.length?wrong.length:'';el('hDone').textContent=`${done.length}/50`;el('hScore').textContent=`${score}점`;el('hWrong').textContent=`${wrong.length}개`;el('wronglist').innerHTML=wrong.length?wrong.map(q=>`<div class="item"><div><b>${q.question_number}번</b> <span class="muted">${q.points}점 · 선택 ${sym[latest(q.question_number).option]} / 정답 ${sym[q.correct_option]}</span></div><button class="outline" onclick="retry(${q.question_number})">다시 풀기</button></div>`).join(''):'틀린 문제가 없습니다.';el('analysistxt').innerHTML=`<div class="statline"><div class="stat"><span class="muted">완료</span><b>${done.length}/50</b></div><div class="stat"><span class="muted">정답률</span><b>${done.length?Math.round((done.length-wrong.length)/done.length*100):0}%</b></div><div class="stat"><span class="muted">현재 점수</span><b>${score} / 100</b></div></div><p class="muted" style="margin-top:20px">미풀이 문항은 0점으로 처리합니다. 정답률은 마지막 풀이 기준입니다.</p>`}
 function openNumbers(){el('numbers').innerHTML=DATA.map(q=>{let a=latest(q.question_number);return `<button class="num ${idx===q.question_number?'active':a?(a.correct?'done':'wrong'):''}" onclick="closeNumbers();moveTo(${q.question_number})">${q.question_number}</button>`}).join('');el('overlay').classList.remove('hide')}
 function closeNumbers(){el('overlay').classList.add('hide')}
 view('library');
