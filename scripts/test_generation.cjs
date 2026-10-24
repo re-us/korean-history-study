@@ -17,6 +17,11 @@ for(let round=57;round<=80;round++){
   assert.equal(q.options.length,5);assert.equal(new Set(q.options.map(o=>o.number)).size,5);
   assert.ok(q.accept_all||(q.correct_option>=1&&q.correct_option<=5));
   for(const image of [q.image,q.material_image,...q.options.map(o=>o.image)].filter(Boolean))assert.ok(fs.existsSync(path.join(root,image)),image);
+  for(const o of q.options){
+   assert.ok(!o.source_image,`${round}:${i+1} text screenshot remains`);
+   if(o.image)assert.equal(o.picture_only,true);
+   else assert.ok(o.text.trim().length>0&&!/[\u0000-\u001f\u200c�]/.test(o.text),`${round}:${i+1}:${o.number} invalid text`);
+  }
   const ex=details[i+1];assert.ok(ex.summary.length>=25);assert.equal(ex.choices.length,5);
   for(const text of [ex.summary,...ex.choices])assert.ok(typeof text==='string'&&text.length>=10&&!/TODO|검토 중|해당 지점|�/.test(text));
   assert.ok(metadata.rounds[round][i]>=0&&metadata.rounds[round][i]<8);

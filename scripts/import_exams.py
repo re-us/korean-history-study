@@ -238,6 +238,8 @@ def crop_asset(image, bounds, path, scale):
     return str(path.relative_to(ROOT)).replace('\\','/')
 
 def export():
+    choice_path=ROOT/'scripts/choice_text_overrides.json'
+    choice_texts=json.loads(choice_path.read_text(encoding='utf8')) if choice_path.exists() else {}
     data=json.loads((CACHE/'extracted.json').read_text(encoding='utf8'))
     geometry=json.loads((ROOT/'scripts/exam_geometry.json').read_text(encoding='utf8'))
     for exam,questions in data.items():
@@ -304,6 +306,14 @@ def export():
                     option['text']=re.sub(r'\s+',' ',option['text'])
                     if int(exam)==58 and n==44 and option['number']==1:
                         option['text']=option['text'].removesuffix(' 도착')
+            # Reviewed transcriptions override OCR crops on subsequent imports.
+            if f'{exam}-{n}' in choice_texts:
+                public['options']=[dict(number=k+1,text=t,image=None) for k,t in enumerate(choice_texts[f'{exam}-{n}'])]
+            for option in public['options']:
+                picture=ROOT/f"assets/exams/{exam}/picture{n:02}_{option['number']}.webp"
+                if option.get('image') and picture.exists():
+                    number=option['number'];option.clear()
+                    option.update(number=number,text='',image=str(picture.relative_to(ROOT)).replace('\\','/'),picture_only=True)
             assert len(public['options'])==5,(exam,n,'option count')
             out.append(public)
         write_json(ROOT/'data/exams'/f'{exam}.json',dict(round=int(exam),level='심화',questions=out))

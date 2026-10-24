@@ -125,38 +125,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/77/option04_1.webp",
-          "source_image": true,
-          "image_width": 28.32
+          "text": "",
+          "image": "assets/exams/77/picture04_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/77/option04_2.webp",
-          "source_image": true,
-          "image_width": 28.32
+          "text": "",
+          "image": "assets/exams/77/picture04_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/77/option04_3.webp",
-          "source_image": true,
-          "image_width": 28.32
+          "text": "",
+          "image": "assets/exams/77/picture04_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/77/option04_4.webp",
-          "source_image": true,
-          "image_width": 28.32
+          "text": "",
+          "image": "assets/exams/77/picture04_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/77/option04_5.webp",
-          "source_image": true,
-          "image_width": 28.32
+          "text": "",
+          "image": "assets/exams/77/picture04_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 4,
@@ -477,38 +472,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/77/option13_1.webp",
-          "source_image": true,
-          "image_width": 24.91
+          "text": "",
+          "image": "assets/exams/77/picture13_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/77/option13_2.webp",
-          "source_image": true,
-          "image_width": 26.3
+          "text": "",
+          "image": "assets/exams/77/picture13_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/77/option13_3.webp",
-          "source_image": true,
-          "image_width": 26.42
+          "text": "",
+          "image": "assets/exams/77/picture13_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/77/option13_4.webp",
-          "source_image": true,
-          "image_width": 26.68
+          "text": "",
+          "image": "assets/exams/77/picture13_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/77/option13_5.webp",
-          "source_image": true,
-          "image_width": 23.39
+          "text": "",
+          "image": "assets/exams/77/picture13_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 4,
@@ -910,7 +900,7 @@
         },
         {
           "number": 2,
-          "text": "각 궁방과 중앙 관서의\t공노비 6만여 명을 해방하였다.",
+          "text": "각 궁방과 중앙 관서의 공노비 6만여 명을 해방하였다.",
           "image": null
         },
         {

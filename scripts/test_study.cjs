@@ -22,7 +22,7 @@ function element(id) {
 }
 const context = vm.createContext({console,Date,Map,Set,JSON,Promise,
  document:{getElementById:element,addEventListener(){},body:{style:{}},querySelectorAll:()=>['library','home','quiz','wrong','allWrong','bookmarks','analysis'].map(element)},
- localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v)},
+ localStorage:{getItem:k=>storage.get(k)||null,setItem:(k,v)=>storage.set(k,v),removeItem:k=>storage.delete(k)},
  fetch:async file=>({ok:fs.existsSync(path.join(root,file)),json:async()=>JSON.parse(read(file))}),
 });
 context.window = context;
@@ -44,6 +44,7 @@ const run = code=>vm.runInContext(code,context);
   for(let n=1;n<=50;n++){
    run(`moveTo(${n});select(DATA[${n-1}].accept_all?1:DATA[${n-1}].correct_option);submit()`);
    assert.equal(run(`latest(${n}).correct`),true);
+   assert.equal((element('choices').innerHTML.match(/class="bubble"/g)||[]).length,5);
    assert.equal((element('choices').innerHTML.match(/class="choice-explanation"/g)||[]).length,5);
    assert.ok(!element('exbox').innerHTML.includes('검토 중'));
   }
@@ -121,6 +122,24 @@ const run = code=>vm.runInContext(code,context);
  storage.set('khistory_mock_catalog_v1',JSON.stringify([...JSON.parse(mockCatalog),null,{id:'mock-123-broken',name:'broken',refs:Array(50).fill(null)}]));
  assert.equal(run('readMocks().length'),3);storage.set('khistory_mock_catalog_v1',mockCatalog);
  assert.equal(storage.get('khistory80_mvp_v1'),original80);
+ // Cancelled deletion is read-only; confirmed deletion affects only the selected mock.
+ const ids=JSON.parse(mockCatalog).map(m=>m.id),victim=ids[1];
+ const beforeDelete=new Map(storage);context.confirm=()=>false;
+ run(`deleteMock('${victim}')`);assert.deepEqual(storage,beforeDelete);
+ await run(`openMock('${victim}')`);
+ context.confirm=()=>true;run(`deleteMock('${victim}')`);
+ assert.equal(run('screen'),'library');assert.equal(run('round'),80);
+ assert.equal(run('readMocks().length'),2);assert.equal(storage.has(`khistory${victim}_mvp_v1`),false);
+ for(const [key,value] of beforeDelete)if(key!=='khistory_mock_catalog_v1'&&key!==`khistory${victim}_mvp_v1`)assert.equal(storage.get(key),value);
+ assert.ok(!run('readMocks()').some(m=>m.id===victim));
+ run(`deleteMock('${victim}')`);assert.equal(run('readMocks().length'),2);
+ const afterDelete=new Map(storage),removeItem=context.localStorage.removeItem;
+ context.localStorage.removeItem=()=>{throw Error('Storage blocked')};
+ run(`deleteMock('${ids[0]}')`);assert.deepEqual(storage,afterDelete);
+ assert.ok(element('mockStatus').textContent.includes('삭제하지 못했습니다'));
+ context.localStorage.removeItem=removeItem;
+ context.confirm=()=>{throw Error('Unexpected destructive operation')};
+ console.log('PASS: mock deletion confirmation, cancellation, active exam reset, other mocks and official records preserved');
  console.log('PASS: 3 persistent 100-point mocks, source references, global wrong review, resolved filter, failed generation preservation');
  await run('chooseExam(70)');
  // A failed or incomplete download must not switch the active exam or overwrite records.

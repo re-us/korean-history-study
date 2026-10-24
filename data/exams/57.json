@@ -12,37 +12,27 @@
         {
           "number": 1,
           "text": "소를 이용한 깊이갈이가 일반화되었다.",
-          "image": "assets/exams/57/option01_1.webp",
-          "source_image": true,
-          "image_width": 60.7
+          "image": null
         },
         {
           "number": 2,
           "text": "주로 동굴이나 강가의 막집에서 살았다.",
-          "image": "assets/exams/57/option01_2.webp",
-          "source_image": true,
-          "image_width": 61.8
+          "image": null
         },
         {
           "number": 3,
           "text": "반달 돌칼을 사용하여 곡식을 수확하였다.",
-          "image": "assets/exams/57/option01_3.webp",
-          "source_image": true,
-          "image_width": 64.99
+          "image": null
         },
         {
           "number": 4,
-          "text": "실을 뽑기 위해 가락바귀를 처음 사용하였다.",
-          "image": "assets/exams/57/option01_4.webp",
-          "source_image": true,
-          "image_width": 69.28
+          "text": "실을 뽑기 위해 가락바퀴를 처음 사용하였다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "주먹도끼, 찍개 등의 떤!석기를 만들기 시작하였다.",
-          "image": "assets/exams/57/option01_5.webp",
-          "source_image": true,
-          "image_width": 76.76
+          "text": "주먹도끼, 찍개 등의 뗀석기를 만들기 시작하였다.",
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -59,38 +49,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 백제와 연합하여 금성을 공격하였다.",
-          "image": "assets/exams/57/option02_1.webp",
-          "source_image": true,
-          "image_width": 57.51
+          "text": "백제와 연합하여 금성을 공격하였다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "마립간이라는 왕의 칭호를 사용하였다.",
-          "image": "assets/exams/57/option02_2.webp",
-          "source_image": true,
-          "image_width": 60.7
+          "image": null
         },
         {
           "number": 3,
           "text": "빈민을 구제하기 위해 진대법을 실시하였다.",
-          "image": "assets/exams/57/option02_3.webp",
-          "source_image": true,
-          "image_width": 68.18
+          "image": null
         },
         {
           "number": 4,
           "text": "목지국을 압도하고 지역의 맹주로 발돋움하였다.",
-          "image": "assets/exams/57/option02_4.webp",
-          "source_image": true,
-          "image_width": 74.56
+          "image": null
         },
         {
           "number": 5,
-          "text": "살인, 절도 등의 죄를 다스리는 범금 8조가 있었다. 1",
-          "image": "assets/exams/57/option02_5.webp",
-          "source_image": true,
-          "image_width": 77.74
+          "text": "살인, 절도 등의 죄를 다스리는 범금 8조가 있었다.",
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -107,38 +87,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(가) 낙랑과 왜에 철을 수출하였다. -",
-          "image": "assets/exams/57/option03_1.webp",
-          "source_image": true,
-          "image_width": 56.73
+          "text": "(가) - 낙랑과 왜에 철을 수출하였다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "(가) 서옥제라는 혼인 풍습이 있었다. -",
-          "image": "assets/exams/57/option03_2.webp",
-          "source_image": true,
-          "image_width": 59.73
+          "text": "(가) - 서옥제라는 혼인 풍습이 있었다.",
+          "image": null
         },
         {
           "number": 3,
-          "text": "(나) 연의 장수 진개의 공격을 받았다. -",
-          "image": "assets/exams/57/option03_3.webp",
-          "source_image": true,
-          "image_width": 60.92
+          "text": "(나) - 연의 장수 진개의 공격을 받았다.",
+          "image": null
         },
         {
           "number": 4,
-          "text": "(나) 가(力Ⅱ)들이 별도로 사출도를 다스렸다. -",
-          "image": "assets/exams/57/option03_4.webp",
-          "source_image": true,
-          "image_width": 68.22
+          "text": "(나) - 가(加)들이 별도로 사출도를 다스렸다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "(가), (나) 골품에 따라 관등 승진에 제한이 있었다. -",
-          "image": "assets/exams/57/option03_5.webp",
-          "source_image": true,
-          "image_width": 78.88
+          "text": "(가), (나) - 골품에 따라 관등 승진에 제한이 있었다.",
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -155,38 +125,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/57/option04_1.webp",
-          "source_image": true,
-          "image_width": 20.23
+          "text": "",
+          "image": "assets/exams/57/picture04_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/57/option04_2.webp",
-          "source_image": true,
-          "image_width": 20.95
+          "text": "",
+          "image": "assets/exams/57/picture04_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/57/option04_3.webp",
-          "source_image": true,
-          "image_width": 22.02
+          "text": "",
+          "image": "assets/exams/57/picture04_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/57/option04_4.webp",
-          "source_image": true,
-          "image_width": 21.54
+          "text": "",
+          "image": "assets/exams/57/picture04_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/57/option04_5.webp",
-          "source_image": true,
-          "image_width": 25.49
+          "text": "",
+          "image": "assets/exams/57/picture04_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 2,
@@ -203,38 +168,28 @@
       "options": [
         {
           "number": 1,
-          "text": "익산에 미록시를 창건하였다.",
-          "image": "assets/exams/57/option05_1.webp",
-          "source_image": true,
-          "image_width": 46.84
+          "text": "익산에 미륵사를 창건하였다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "사비로 천도하고 국호를 남부여로 고쳤다.",
-          "image": "assets/exams/57/option05_2.webp",
-          "source_image": true,
-          "image_width": 64.87
+          "image": null
         },
         {
           "number": 3,
           "text": "지방에 22담로를 두어 왕족을 파견하였다.",
-          "image": "assets/exams/57/option05_3.webp",
-          "source_image": true,
-          "image_width": 65.36
+          "image": null
         },
         {
           "number": 4,
           "text": "평양성을 공격하여 고국원왕을 전사시켰다.",
-          "image": "assets/exams/57/option05_4.webp",
-          "source_image": true,
-          "image_width": 66.95
+          "image": null
         },
         {
           "number": 5,
           "text": "동진에서 온 마라난타를 통해 불교를 수용하였다.",
-          "image": "assets/exams/57/option05_5.webp",
-          "source_image": true,
-          "image_width": 75.54
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -252,37 +207,27 @@
         {
           "number": 1,
           "text": "유식의 교의를 담은 해심밀경소를 저술하였다.",
-          "image": "assets/exams/57/option06_1.webp",
-          "source_image": true,
-          "image_width": 71.25
+          "image": null
         },
         {
           "number": 2,
-          "text": "외교 문서 작성에 능하여 정방인문표를 작성하였다.",
-          "image": "assets/exams/57/option06_2.webp",
-          "source_image": true,
-          "image_width": 78.73
+          "text": "외교 문서 작성에 능하여 청방인문표를 작성하였다.",
+          "image": null
         },
         {
           "number": 3,
           "text": "한자의 음훈을 빌려 우리말을 표기한 이두를 정리하였다.",
-          "image": "assets/exams/57/option06_3.webp",
-          "source_image": true,
-          "image_width": 86.21
+          "image": null
         },
         {
           "number": 4,
           "text": "신라 말의 사회상을 보여주는 해인사 묘길상탑기를 남겼다.",
-          "image": "assets/exams/57/option06_4.webp",
-          "source_image": true,
-          "image_width": 89.39
+          "image": null
         },
         {
           "number": 5,
-          "text": "종파 간의 시상적 대립을 해소하기 위해 십문화쟁론을 지었다. 2",
-          "image": "assets/exams/57/option06_5.webp",
-          "source_image": true,
-          "image_width": 90.99
+          "text": "종파 간의 시상적 대립을 해소하기 위해 십문화쟁론을 지었다.",
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -338,37 +283,27 @@
         {
           "number": 1,
           "text": "금관가야가 멸망하였다.",
-          "image": "assets/exams/57/option08_1.webp",
-          "source_image": true,
-          "image_width": 38.42
+          "image": null
         },
         {
           "number": 2,
           "text": "이사부가 우산국을 복속하였다.",
-          "image": "assets/exams/57/option08_2.webp",
-          "source_image": true,
-          "image_width": 48.83
+          "image": null
         },
         {
           "number": 3,
-          "text": "조세를 관장하는 품주가 설치되 었다.",
-          "image": "assets/exams/57/option08_3.webp",
-          "source_image": true,
-          "image_width": 56.13
+          "text": "조세를 관장하는 품주가 설치되었다.",
+          "image": null
         },
         {
           "number": 4,
-          "text": "관료전이 지급되고 녹음이 폐지되었다.",
-          "image": "assets/exams/57/option08_4.webp",
-          "source_image": true,
-          "image_width": 59.25
+          "text": "관료전이 지급되고 녹읍이 폐지되었다.",
+          "image": null
         },
         {
           "number": 5,
           "text": "인재 등용을 위한 독서삼품과가 실시되었다.",
-          "image": "assets/exams/57/option08_5.webp",
-          "source_image": true,
-          "image_width": 66.55
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -386,37 +321,27 @@
         {
           "number": 1,
           "text": "교육 기관으로 주자감을 두었다.",
-          "image": "assets/exams/57/option09_1.webp",
-          "source_image": true,
-          "image_width": 49.91
+          "image": null
         },
         {
           "number": 2,
           "text": "신라에 침입한 왜구를 격퇴하였다.",
-          "image": "assets/exams/57/option09_2.webp",
-          "source_image": true,
-          "image_width": 53.02
+          "image": null
         },
         {
           "number": 3,
           "text": "9서당 10정의 군사 조직을 갖추었다.",
-          "image": "assets/exams/57/option09_3.webp",
-          "source_image": true,
-          "image_width": 56.01
+          "image": null
         },
         {
           "number": 4,
-          "text": "개국, 태장이라는 연호를 시용하였다.",
-          "image": "assets/exams/57/option09_4.webp",
-          "source_image": true,
-          "image_width": 57.21
+          "text": "개국, 태장이라는 연호를 사용하였다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "왕족인 부여씨와 8성의 귀족이 지배층을 이루었다. 12",
-          "image": "assets/exams/57/option09_5.webp",
-          "source_image": true,
-          "image_width": 75.64
+          "text": "왕족인 부여씨와 8성의 귀족이 지배층을 이루었다.",
+          "image": null
         }
       ],
       "correct_option": 1,
@@ -433,38 +358,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 공산 전투에서 고려군을 크게 무찔렀다.",
-          "image": "assets/exams/57/option10_1.webp",
-          "source_image": true,
-          "image_width": 61.8
+          "text": "공산 전투에서 고려군을 크게 무찔렀다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "(기 귀순한 김순식에게 왕씨 성을 하사하였다.",
-          "image": "assets/exams/57/option10_2.webp",
-          "source_image": true,
-          "image_width": 64.99
+          "text": "귀순한 김순식에게 왕씨 성을 하사하였다.",
+          "image": null
         },
         {
           "number": 3,
-          "text": "(9 폐정 개혁을 목표로 정치도감을 설치하였다.",
-          "image": "assets/exams/57/option10_3.webp",
-          "source_image": true,
-          "image_width": 68.18
+          "text": "폐정 개혁을 목표로 정치도감을 설치하였다.",
+          "image": null
         },
         {
           "number": 4,
           "text": "청해진을 근거지로 해상 무역을 전개하였다.",
-          "image": "assets/exams/57/option10_4.webp",
-          "source_image": true,
-          "image_width": 68.18
+          "image": null
         },
         {
           "number": 5,
           "text": "광평성을 설치하고 광치나, 서사 등의 관원을 두었다.",
-          "image": "assets/exams/57/option10_5.webp",
-          "source_image": true,
-          "image_width": 81.18
+          "image": null
         }
       ],
       "correct_option": 1,
@@ -481,38 +396,28 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/57/option11_1.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(가)",
+          "image": null
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/57/option11_2.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(나)",
+          "image": null
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/57/option11_3.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(다)",
+          "image": null
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/57/option11_4.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(라)",
+          "image": null
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/57/option11_5.webp",
-          "source_image": true,
-          "image_width": 10.79
+          "text": "(마)",
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -530,37 +435,27 @@
         {
           "number": 1,
           "text": "12목에 지방관이 파견되었다.",
-          "image": "assets/exams/57/option12_1.webp",
-          "source_image": true,
-          "image_width": 45.84
+          "image": null
         },
         {
           "number": 2,
           "text": "쌍기의 건의로 과거제가 시행되었다.",
-          "image": "assets/exams/57/option12_2.webp",
-          "source_image": true,
-          "image_width": 56.13
+          "image": null
         },
         {
           "number": 3,
           "text": "대장도감에서 팔만대장경이 간행되었다.",
-          "image": "assets/exams/57/option12_3.webp",
-          "source_image": true,
-          "image_width": 61.28
+          "image": null
         },
         {
           "number": 4,
           "text": "안우, 이방실 등이 홍건적을 격파하였다.",
-          "image": "assets/exams/57/option12_4.webp",
-          "source_image": true,
-          "image_width": 61.52
+          "image": null
         },
         {
           "number": 5,
           "text": "신돈이 전민변정도감의 책임자가 되었다.",
-          "image": "assets/exams/57/option12_5.webp",
-          "source_image": true,
-          "image_width": 62.36
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -577,38 +472,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 백동회를 주조하는 전흰국의 기술자",
-          "image": "assets/exams/57/option13_1.webp",
-          "source_image": true,
-          "image_width": 55.54
+          "text": "백동화를 주조하는 전환국의 기술자",
+          "image": null
         },
         {
           "number": 2,
           "text": "신해통공 시행 소식에 기뻐하는 난전 상인",
-          "image": "assets/exams/57/option13_2.webp",
-          "source_image": true,
-          "image_width": 63.67
+          "image": null
         },
         {
           "number": 3,
           "text": "불법적인 상행위를 감독하는 경시서의 관리",
-          "image": "assets/exams/57/option13_3.webp",
-          "source_image": true,
-          "image_width": 65.47
+          "image": null
         },
         {
           "number": 4,
           "text": "담배, 인삼 등의 상품 작물을 재배하는 농민",
-          "image": "assets/exams/57/option13_4.webp",
-          "source_image": true,
-          "image_width": 65.95
+          "image": null
         },
         {
           "number": 5,
-          "text": "물주로부터 자금을 조달받아 광산을 운영하는 덕 대",
-          "image": "assets/exams/57/option13_5.webp",
-          "source_image": true,
-          "image_width": 75.88
+          "text": "물주로부터 자금을 조달받아 광산을 운영하는 덕대",
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -625,38 +510,28 @@
       "options": [
         {
           "number": 1,
-          "text": "김윤후가 처 인성에서 형굘군을 격퇴하였다.",
-          "image": "assets/exams/57/option14_1.webp",
-          "source_image": true,
-          "image_width": 64.27
+          "text": "김윤후가 처인성에서 몽골군을 격퇴하였다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "묘청이 칭제 건원과 금국 정벌을 주장하였다.",
-          "image": "assets/exams/57/option14_2.webp",
-          "source_image": true,
-          "image_width": 67.62
+          "image": null
         },
         {
           "number": 3,
           "text": "김방경의 군대가 탐라에서 삼별초를 진압하였다.",
-          "image": "assets/exams/57/option14_3.webp",
-          "source_image": true,
-          "image_width": 72.77
+          "image": null
         },
         {
           "number": 4,
           "text": "최충헌이 봉사 10조를 올려 시정 개혁을 건의하였다.",
-          "image": "assets/exams/57/option14_4.webp",
-          "source_image": true,
-          "image_width": 76.72
+          "image": null
         },
         {
           "number": 5,
-          "text": "경대승이 정중부 등을 제거하고 권력을 장악하였다. 12",
-          "image": "assets/exams/57/option14_5.webp",
-          "source_image": true,
-          "image_width": 76.84
+          "text": "경대승이 정중부 등을 제거하고 권력을 장악하였다.",
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -673,38 +548,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/57/option15_1.webp",
-          "source_image": true,
-          "image_width": 35.19
+          "text": "",
+          "image": "assets/exams/57/picture15_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/57/option15_2.webp",
-          "source_image": true,
-          "image_width": 35.19
+          "text": "",
+          "image": "assets/exams/57/picture15_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/57/option15_3.webp",
-          "source_image": true,
-          "image_width": 35.19
+          "text": "",
+          "image": "assets/exams/57/picture15_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/57/option15_4.webp",
-          "source_image": true,
-          "image_width": 35.19
+          "text": "",
+          "image": "assets/exams/57/picture15_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/57/option15_5.webp",
-          "source_image": true,
-          "image_width": 35.19
+          "text": "",
+          "image": "assets/exams/57/picture15_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 1,
@@ -722,37 +592,27 @@
         {
           "number": 1,
           "text": "양현고를 두어 장학 기금을 마련하였다.",
-          "image": "assets/exams/57/option16_1.webp",
-          "source_image": true,
-          "image_width": 61.8
+          "image": null
         },
         {
           "number": 2,
           "text": "서원을 세워 후진 양성과 선현 제향에 힘썼다.",
-          "image": "assets/exams/57/option16_2.webp",
-          "source_image": true,
-          "image_width": 70.39
+          "image": null
         },
         {
           "number": 3,
           "text": "초계문신제를 시행하여 문신들을 재교육하였다.",
-          "image": "assets/exams/57/option16_3.webp",
-          "source_image": true,
-          "image_width": 73.33
+          "image": null
         },
         {
           "number": 4,
           "text": "만권당을 설립하여 원의 학자들과 교류하게 하였다.",
-          "image": "assets/exams/57/option16_4.webp",
-          "source_image": true,
-          "image_width": 78.73
+          "image": null
         },
         {
           "number": 5,
-          "text": "경당을 설지하여 청소년에게 글과 활쏘기를 가르쳤다. 4",
-          "image": "assets/exams/57/option16_5.webp",
-          "source_image": true,
-          "image_width": 81.91
+          "text": "경당을 설치하여 청소년에게 글과 활쏘기를 가르쳤다.",
+          "image": null
         }
       ],
       "correct_option": 1,
@@ -770,37 +630,27 @@
         {
           "number": 1,
           "text": "과전을 혁파하고 직전을 설치하였다.",
-          "image": "assets/exams/57/option17_1.webp",
-          "source_image": true,
-          "image_width": 56.13
+          "image": null
         },
         {
           "number": 2,
-          "text": "최무선의 건의로 회통도감을 두었다.",
-          "image": "assets/exams/57/option17_2.webp",
-          "source_image": true,
-          "image_width": 56.13
+          "text": "최무선의 건의로 화통도감을 두었다.",
+          "image": null
         },
         {
           "number": 3,
-          "text": "어 영정을 중심으로 북벌을 추진하였다.",
-          "image": "assets/exams/57/option17_3.webp",
-          "source_image": true,
-          "image_width": 59.25
+          "text": "어영청을 중심으로 북벌을 추진하였다.",
+          "image": null
         },
         {
           "number": 4,
-          "text": "왕권 강회를 위해 6조 직계제를 실시하였다.",
-          "image": "assets/exams/57/option17_4.webp",
-          "source_image": true,
-          "image_width": 66.31
+          "text": "왕권 강화를 위해 6조 직계제를 실시하였다.",
+          "image": null
         },
         {
           "number": 5,
           "text": "궁중 음악을 집대성한 악학궤범을 편찬하였다.",
-          "image": "assets/exams/57/option17_5.webp",
-          "source_image": true,
-          "image_width": 69.66
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -817,38 +667,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 계유정난의 배경이 되었다.",
-          "image": "assets/exams/57/option18_1.webp",
-          "source_image": true,
-          "image_width": 42.61
+          "text": "계유정난의 배경이 되었다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "조의제문이 발단이 되어 일어났다.",
-          "image": "assets/exams/57/option18_2.webp",
-          "source_image": true,
-          "image_width": 53.02
+          "image": null
         },
         {
           "number": 3,
           "text": "반정 공신의 위훈 삭제를 주장하였다.",
-          "image": "assets/exams/57/option18_3.webp",
-          "source_image": true,
-          "image_width": 57.21
+          "image": null
         },
         {
           "number": 4,
-          "text": "윤임 일파가 제거되는 결괴를 가져왔다.",
-          "image": "assets/exams/57/option18_4.webp",
-          "source_image": true,
-          "image_width": 60.32
+          "text": "윤임 일파가 제거되는 결과를 가져왔다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "동인이 남인과 북인으로 나뉘는 계기가 되었다. 12",
-          "image": "assets/exams/57/option18_5.webp",
-          "source_image": true,
-          "image_width": 70.74
+          "text": "동인이 남인과 북인으로 나뉘는 계기가 되었다.",
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -865,38 +705,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 주세붕이 처음 설립하였다.",
-          "image": "assets/exams/57/option19_1.webp",
-          "source_image": true,
-          "image_width": 43.65
+          "text": "주세붕이 처음 설립하였다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "죄수와 별감을 선발하여 운영하였다.",
-          "image": "assets/exams/57/option19_2.webp",
-          "source_image": true,
-          "image_width": 57.51
+          "text": "좌수와 별감을 선발하여 운영하였다.",
+          "image": null
         },
         {
           "number": 3,
           "text": "중앙에서 교수와 훈도를 파견하였다.",
-          "image": "assets/exams/57/option19_3.webp",
-          "source_image": true,
-          "image_width": 57.51
+          "image": null
         },
         {
           "number": 4,
-          "text": "대성전을 세우니 성현에 제시를 지냈다.",
-          "image": "assets/exams/57/option19_4.webp",
-          "source_image": true,
-          "image_width": 58.61
+          "text": "대성전을 세워 성현에 제사를 지냈다.",
+          "image": null
         },
         {
           "number": 5,
           "text": "흥선 대원군에 의해 대부분 철폐되었다.",
-          "image": "assets/exams/57/option19_5.webp",
-          "source_image": true,
-          "image_width": 61.8
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -913,38 +743,28 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/57/option20_1.webp",
-          "source_image": true,
-          "image_width": 26.49
+          "text": "(가)",
+          "image": null
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/57/option20_2.webp",
-          "source_image": true,
-          "image_width": 30.29
+          "text": "(나)",
+          "image": null
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/57/option20_3.webp",
-          "source_image": true,
-          "image_width": 26.73
+          "text": "(다)",
+          "image": null
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/57/option20_4.webp",
-          "source_image": true,
-          "image_width": 23.79
+          "text": "(라)",
+          "image": null
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/57/option20_5.webp",
-          "source_image": true,
-          "image_width": 24.77
+          "text": "(마)",
+          "image": null
         }
       ],
       "correct_option": 1,
@@ -962,37 +782,27 @@
         {
           "number": 1,
           "text": "훈련도감이 설치되었다.",
-          "image": "assets/exams/57/option21_1.webp",
-          "source_image": true,
-          "image_width": 38.42
+          "image": null
         },
         {
           "number": 2,
           "text": "외규장각 도서가 약탈되었다.",
-          "image": "assets/exams/57/option21_2.webp",
-          "source_image": true,
-          "image_width": 45.72
+          "image": null
         },
         {
           "number": 3,
           "text": "곽재우가 의령에서 의병을 일으켰다.",
-          "image": "assets/exams/57/option21_3.webp",
-          "source_image": true,
-          "image_width": 56.13
+          "image": null
         },
         {
           "number": 4,
           "text": "강홍립이 이끄는 부대가 참전하였다.",
-          "image": "assets/exams/57/option21_4.webp",
-          "source_image": true,
-          "image_width": 56.13
+          "image": null
         },
         {
           "number": 5,
           "text": "김준룡이 광교산 전투에서 승리하였다.",
-          "image": "assets/exams/57/option21_5.webp",
-          "source_image": true,
-          "image_width": 59.25
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1009,38 +819,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 양재역 벽서 사건이 발생하였다.",
-          "image": "assets/exams/57/option22_1.webp",
-          "source_image": true,
-          "image_width": 49.91
+          "text": "양재역 벽서 사건이 발생하였다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "송시열이 관작을 삭탈당하고 유배되었다.",
-          "image": "assets/exams/57/option22_2.webp",
-          "source_image": true,
-          "image_width": 62.36
+          "text": "송시 열이 관작을 삭탈당하고 유배되었다.",
+          "image": null
         },
         {
           "number": 3,
           "text": "자의 대비 복상 문제로 예송이 전개되었다.",
-          "image": "assets/exams/57/option22_3.webp",
-          "source_image": true,
-          "image_width": 64.51
+          "image": null
         },
         {
           "number": 4,
           "text": "정여립 모반 사건으로 기축옥사가 일어났다.",
-          "image": "assets/exams/57/option22_4.webp",
-          "source_image": true,
-          "image_width": 66.55
+          "image": null
         },
         {
           "number": 5,
-          "text": "붕당의 폐해를 막기 위해 탕평비가 세워졌다. 12",
-          "image": "assets/exams/57/option22_5.webp",
-          "source_image": true,
-          "image_width": 67.62
+          "text": "붕당의 폐해를 막기 위해 탕평비가 세워졌다.",
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -1057,38 +857,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 관청에 물품을 조달하는 공인이 등장하였다.",
-          "image": "assets/exams/57/option23_1.webp",
-          "source_image": true,
-          "image_width": 68.18
+          "text": "관청에 물품을 조달하는 공인이 등장하였다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "어염세, 선박세 등이 국가 재정으로 귀속되었다.",
-          "image": "assets/exams/57/option23_2.webp",
-          "source_image": true,
-          "image_width": 73.58
+          "image": null
         },
         {
           "number": 3,
           "text": "전세를 풍흉에 따라 9등급으로 차등 과세하였다.",
-          "image": "assets/exams/57/option23_3.webp",
-          "source_image": true,
-          "image_width": 74.31
+          "image": null
         },
         {
           "number": 4,
           "text": "양반에게도 군포를 징수하는 호포제가 시행되었다.",
-          "image": "assets/exams/57/option23_4.webp",
-          "source_image": true,
-          "image_width": 77.62
+          "image": null
         },
         {
           "number": 5,
           "text": "재정을 보충하기 위해 지주에게 결작이 부과되었다.",
-          "image": "assets/exams/57/option23_5.webp",
-          "source_image": true,
-          "image_width": 78.85
+          "image": null
         }
       ],
       "correct_option": 1,
@@ -1105,38 +895,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(가) 청과의 국경을 정한 백두산정계비를 세웠다. -",
-          "image": "assets/exams/57/option24_1.webp",
-          "source_image": true,
-          "image_width": 78.24
+          "text": "(가) - 청과의 국경을 정한 백두산정계비를 세웠다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "(가) 왕실의 위엄을 높이기 위해 경복궁을 중건하였다. -",
-          "image": "assets/exams/57/option24_2.webp",
-          "source_image": true,
-          "image_width": 85.72
+          "text": "(가) - 왕실의 위엄을 높이기 위해 경복궁을 중건하였다.",
+          "image": null
         },
         {
           "number": 3,
-          "text": "(나) 이종무를 파견하여 대마도를 정벌하였다. -",
-          "image": "assets/exams/57/option24_3.webp",
-          "source_image": true,
-          "image_width": 73.94
+          "text": "(나) - 이종무를 파견하여 대마도를 정벌하였다.",
+          "image": null
         },
         {
           "number": 4,
-          "text": "(나) 국왕의 친위 부대인 장용영을 설지하였다. -",
-          "image": "assets/exams/57/option24_4.webp",
-          "source_image": true,
-          "image_width": 75.05
+          "text": "(나) - 국왕의 친위 부대인 장용영을 설치하였다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "(가), (나) 나선 정벌에 조총 부대를 파견하였다. - 6",
-          "image": "assets/exams/57/option24_5.webp",
-          "source_image": true,
-          "image_width": 76.4
+          "text": "(가), (나) - 나선 정벌에 조총 부대를 파견하였다.",
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -1154,37 +934,27 @@
         {
           "number": 1,
           "text": "이벽 등과 교류하며 천주교를 받아들였다.",
-          "image": "assets/exams/57/option25_1.webp",
-          "source_image": true,
-          "image_width": 63.44
+          "image": null
         },
         {
           "number": 2,
           "text": "북한산비가 진흥왕 순수비임을 고증하였다.",
-          "image": "assets/exams/57/option25_2.webp",
-          "source_image": true,
-          "image_width": 65.35
+          "image": null
         },
         {
           "number": 3,
           "text": "동호문답에서 수취 제도의 개혁 등을 제안하였다.",
-          "image": "assets/exams/57/option25_3.webp",
-          "source_image": true,
-          "image_width": 73.85
+          "image": null
         },
         {
           "number": 4,
           "text": "가례집람을 지어 예학을 조선의 현실에 맞게 정리하였다.",
-          "image": "assets/exams/57/option25_4.webp",
-          "source_image": true,
-          "image_width": 83.18
+          "image": null
         },
         {
           "number": 5,
           "text": "곽우록에서 토지 매매를 제한하는 한전론을 주장하였다.",
-          "image": "assets/exams/57/option25_5.webp",
-          "source_image": true,
-          "image_width": 84.02
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1202,37 +972,27 @@
         {
           "number": 1,
           "text": "중인들이 시사(詩社)를 조직하였다.",
-          "image": "assets/exams/57/option26_1.webp",
-          "source_image": true,
-          "image_width": 54.1
+          "image": null
         },
         {
           "number": 2,
           "text": "양반의 위선을 풍자한 탈춤이 공연되었다.",
-          "image": "assets/exams/57/option26_2.webp",
-          "source_image": true,
-          "image_width": 63.44
+          "image": null
         },
         {
           "number": 3,
-          "text": "춘향가, 홍보가 등의 판소리가 유행하였다.",
-          "image": "assets/exams/57/option26_3.webp",
-          "source_image": true,
-          "image_width": 64.51
+          "text": "춘향가, 흥보가 등의 판소리가 유행하였다.",
+          "image": null
         },
         {
           "number": 4,
-          "text": "금속 활자본인 직지심제요절이 간행되었다.",
-          "image": "assets/exams/57/option26_4.webp",
-          "source_image": true,
-          "image_width": 65.35
+          "text": "금속 활자본인 직지심체요절이 간행되었다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "홍길동전, 박씨전 등의 한글 소설이 널리 읽혔다. 12",
-          "image": "assets/exams/57/option26_5.webp",
-          "source_image": true,
-          "image_width": 73.01
+          "text": "홍길동전, 박씨전 등의 한글 소설이 널리 읽혔다.",
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -1249,38 +1009,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 총리대신으로 갑오개혁을 주도하였다.",
-          "image": "assets/exams/57/option27_1.webp",
-          "source_image": true,
-          "image_width": 59.6
+          "text": "총리대신으로 갑오개혁을 주도하였다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "(기 베델과 함께 대한매일신보를 창간하였다.",
-          "image": "assets/exams/57/option27_2.webp",
-          "source_image": true,
-          "image_width": 63.89
+          "text": "베델과 함께 대한매일신보를 창간하였다.",
+          "image": null
         },
         {
           "number": 3,
           "text": "서양의 과학 기술을 정리한 지구전요를 저술하였다.",
-          "image": "assets/exams/57/option27_3.webp",
-          "source_image": true,
-          "image_width": 78.85
+          "image": null
         },
         {
           "number": 4,
           "text": "강화도 조약 체결의 전말을 기록한 심행일기를 남겼다.",
-          "image": "assets/exams/57/option27_4.webp",
-          "source_image": true,
-          "image_width": 83.14
+          "image": null
         },
         {
           "number": 5,
           "text": "유학생과 기술자들을 이끄는 영선사로 청에 파견되었다.",
-          "image": "assets/exams/57/option27_5.webp",
-          "source_image": true,
-          "image_width": 85.22
+          "image": null
         }
       ],
       "correct_option": 1,
@@ -1297,38 +1047,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 군 통수권 장악을 위해 원수부를 두었다.",
-          "image": "assets/exams/57/option28_1.webp",
-          "source_image": true,
-          "image_width": 62.91
+          "text": "군 통수권 장악을 위해 원수부를 두었다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "각 궁방과 중앙 관서의 공노비를 해방하였다.",
-          "image": "assets/exams/57/option28_2.webp",
-          "source_image": true,
-          "image_width": 69.28
+          "image": null
         },
         {
           "number": 3,
           "text": "개혁의 방향을 제시한 홍범 14조를 반포하였다.",
-          "image": "assets/exams/57/option28_3.webp",
-          "source_image": true,
-          "image_width": 72.59
+          "image": null
         },
         {
           "number": 4,
           "text": "재정 문제를 해결하기 위해 당백전을 발행하였다.",
-          "image": "assets/exams/57/option28_4.webp",
-          "source_image": true,
-          "image_width": 75.66
+          "image": null
         },
         {
           "number": 5,
-          "text": "삼정의 문란을 시정하고자 삼정이정청을 설지하였다. 7",
-          "image": "assets/exams/57/option28_5.webp",
-          "source_image": true,
-          "image_width": 80.81
+          "text": "삼정의 문란을 시정하고자 삼정이정청을 설치하였다.",
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1346,37 +1086,27 @@
         {
           "number": 1,
           "text": "병인양요 발생의 배경이 되었어요.",
-          "image": "assets/exams/57/option29_1.webp",
-          "source_image": true,
-          "image_width": 53.02
+          "image": null
         },
         {
           "number": 2,
           "text": "갑신정변의 영향으로 체결되었어요.",
-          "image": "assets/exams/57/option29_2.webp",
-          "source_image": true,
-          "image_width": 55.06
+          "image": null
         },
         {
           "number": 3,
-          "text": "통감부가 설지되는 결괴를 가져왔어요.",
-          "image": "assets/exams/57/option29_3.webp",
-          "source_image": true,
-          "image_width": 59.25
+          "text": "통감부가 설치되는 결과를 가져왔어요.",
+          "image": null
         },
         {
           "number": 4,
           "text": "거중 조정에 대한 내용이 포함되었어요.",
-          "image": "assets/exams/57/option29_4.webp",
-          "source_image": true,
-          "image_width": 60.32
+          "image": null
         },
         {
           "number": 5,
           "text": "메가다가 재정 고문으로 부임하는 계기가 되었어요.",
-          "image": "assets/exams/57/option29_5.webp",
-          "source_image": true,
-          "image_width": 76.96
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -1394,37 +1124,27 @@
         {
           "number": 1,
           "text": "정혜쌍수와 돈오점수를 주장하였다.",
-          "image": "assets/exams/57/option30_1.webp",
-          "source_image": true,
-          "image_width": 54.94
+          "image": null
         },
         {
           "number": 2,
           "text": "포접제를 활용하여 교세를 확장하였다.",
-          "image": "assets/exams/57/option30_2.webp",
-          "source_image": true,
-          "image_width": 59.13
+          "image": null
         },
         {
           "number": 3,
-          "text": "박중빈을 중심으로 새생활 운동-을 추진하였다.",
-          "image": "assets/exams/57/option30_3.webp",
-          "source_image": true,
-          "image_width": 69.54
+          "text": "박중빈을 중심으로 새생활 운동을 추진하였다.",
+          "image": null
         },
         {
           "number": 4,
           "text": "중광단을 조직하여 항일 무장 투쟁을 전개하였다.",
-          "image": "assets/exams/57/option30_4.webp",
-          "source_image": true,
-          "image_width": 73.73
+          "image": null
         },
         {
           "number": 5,
-          "text": "제사와 신주를 모시는 문제로 정부의 탄압을 받았다. 12",
-          "image": "assets/exams/57/option30_5.webp",
-          "source_image": true,
-          "image_width": 77.92
+          "text": "제사와 신주를 모시는 문제로 정부의 탄압을 받았다.",
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -1442,37 +1162,27 @@
         {
           "number": 1,
           "text": "만세보를 발행하여 민중 계몽에 앞장섰다.",
-          "image": "assets/exams/57/option31_1.webp",
-          "source_image": true,
-          "image_width": 64.87
+          "image": null
         },
         {
           "number": 2,
           "text": "고종의 강제 퇴위 반대 운동을 전개하였다.",
-          "image": "assets/exams/57/option31_2.webp",
-          "source_image": true,
-          "image_width": 65.97
+          "image": null
         },
         {
           "number": 3,
           "text": "여성 권리 선언문인 여권통문을 공표하였다.",
-          "image": "assets/exams/57/option31_3.webp",
-          "source_image": true,
-          "image_width": 68.06
+          "image": null
         },
         {
           "number": 4,
           "text": "독립운동 자금 마련을 위해 독립 공채를 발행하였다.",
-          "image": "assets/exams/57/option31_4.webp",
-          "source_image": true,
-          "image_width": 79.83
+          "image": null
         },
         {
           "number": 5,
           "text": "만민 공동회를 열어 열강의 이권 침탈을 저지하였다.",
-          "image": "assets/exams/57/option31_5.webp",
-          "source_image": true,
-          "image_width": 80.32
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1565,38 +1275,28 @@
       "options": [
         {
           "number": 1,
-          "text": "화폐 정리 사업의 결괴를 분석한다.",
-          "image": "assets/exams/57/option34_1.webp",
-          "source_image": true,
-          "image_width": 54.1
+          "text": "화폐 정리 사업의 결과를 분석한다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "산미 증식 계획의 실상을 조사한다.",
-          "image": "assets/exams/57/option34_2.webp",
-          "source_image": true,
-          "image_width": 54.1
+          "image": null
         },
         {
           "number": 3,
           "text": "조일 통상 장정 체결의 영향을 살펴본다.",
-          "image": "assets/exams/57/option34_3.webp",
-          "source_image": true,
-          "image_width": 61.4
+          "image": null
         },
         {
           "number": 4,
           "text": "토지 조사 사업의 추진 과정을 파악한다.",
-          "image": "assets/exams/57/option34_4.webp",
-          "source_image": true,
-          "image_width": 61.4
+          "image": null
         },
         {
           "number": 5,
-          "text": "양지아문과 지계아문을 설치한 목적을 알아본다. 12",
-          "image": "assets/exams/57/option34_5.webp",
-          "source_image": true,
-          "image_width": 72.65
+          "text": "양지아문과 지계아문을 설치한 목적을 알아본다.",
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -1728,37 +1428,27 @@
         {
           "number": 1,
           "text": "임오군란이 일어났다.",
-          "image": "assets/exams/57/option38_1.webp",
-          "source_image": true,
-          "image_width": 36.17
+          "image": null
         },
         {
           "number": 2,
           "text": "집강소가 설치되었다.",
-          "image": "assets/exams/57/option38_2.webp",
-          "source_image": true,
-          "image_width": 36.17
+          "image": null
         },
         {
           "number": 3,
           "text": "을사늑약이 체결되었다.",
-          "image": "assets/exams/57/option38_3.webp",
-          "source_image": true,
-          "image_width": 39.36
+          "image": null
         },
         {
           "number": 4,
           "text": "조선 태형령이 제정되었다.",
-          "image": "assets/exams/57/option38_4.webp",
-          "source_image": true,
-          "image_width": 43.65
+          "image": null
         },
         {
           "number": 5,
           "text": "대한 제국의 군대가 해산되었다.",
-          "image": "assets/exams/57/option38_5.webp",
-          "source_image": true,
-          "image_width": 51.13
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -1776,37 +1466,27 @@
         {
           "number": 1,
           "text": "북학의를 저술하는 학자",
-          "image": "assets/exams/57/option39_1.webp",
-          "source_image": true,
-          "image_width": 39.73
+          "image": null
         },
         {
           "number": 2,
           "text": "대한국 국제를 반포하는 황제",
-          "image": "assets/exams/57/option39_2.webp",
-          "source_image": true,
-          "image_width": 46.84
+          "image": null
         },
         {
           "number": 3,
           "text": "거문도를 불법 점령하는 영국군",
-          "image": "assets/exams/57/option39_3.webp",
-          "source_image": true,
-          "image_width": 50.4
+          "image": null
         },
         {
           "number": 4,
           "text": "집현전에서 학문을 연구하는 관리",
-          "image": "assets/exams/57/option39_4.webp",
-          "source_image": true,
-          "image_width": 53.1
+          "image": null
         },
         {
           "number": 5,
-          "text": "제너럴 서민호를 불태우는 평양 관민 10",
-          "image": "assets/exams/57/option39_5.webp",
-          "source_image": true,
-          "image_width": 57.76
+          "text": "제너럴 셔먼호를 불태우는 평양 관민",
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -1823,38 +1503,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 시전 상인의 상권 수호 운동",
-          "image": "assets/exams/57/option40_1.webp",
-          "source_image": true,
-          "image_width": 44.17
+          "text": "시전 상인의 상권 수호 운동",
+          "image": null
         },
         {
           "number": 2,
-          "text": "(기 급진 개화파의 정치 개혁 운동",
-          "image": "assets/exams/57/option40_2.webp",
-          "source_image": true,
-          "image_width": 47.28
+          "text": "급진 개화파의 정치 개혁 운동",
+          "image": null
         },
         {
           "number": 3,
           "text": "백정들의 사회적 차별 철폐 운동",
-          "image": "assets/exams/57/option40_3.webp",
-          "source_image": true,
-          "image_width": 50.39
+          "image": null
         },
         {
           "number": 4,
           "text": "농촌 계몽을 위한 브나로드 운동",
-          "image": "assets/exams/57/option40_4.webp",
-          "source_image": true,
-          "image_width": 50.39
+          "image": null
         },
         {
           "number": 5,
           "text": "일본의 황무지 개간권 요구에 대한 반대 운동",
-          "image": "assets/exams/57/option40_5.webp",
-          "source_image": true,
-          "image_width": 68.1
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1872,37 +1542,27 @@
         {
           "number": 1,
           "text": "육영 공원이 설립되었다.",
-          "image": "assets/exams/57/option41_1.webp",
-          "source_image": true,
-          "image_width": 39.5
+          "image": null
         },
         {
           "number": 2,
-          "text": "국문 연구소가 설지되었다.",
-          "image": "assets/exams/57/option41_2.webp",
-          "source_image": true,
-          "image_width": 42.61
+          "text": "국문 연구소가 설치되었다.",
+          "image": null
         },
         {
           "number": 3,
           "text": "교육 입국 조서가 반포되었다.",
-          "image": "assets/exams/57/option41_3.webp",
-          "source_image": true,
-          "image_width": 46.8
+          "image": null
         },
         {
           "number": 4,
           "text": "국민 교육 헌장이 발표되었다.",
-          "image": "assets/exams/57/option41_4.webp",
-          "source_image": true,
-          "image_width": 46.8
+          "image": null
         },
         {
           "number": 5,
-          "text": "조선 민립 대학 기성회가 장립되었다.",
-          "image": "assets/exams/57/option41_5.webp",
-          "source_image": true,
-          "image_width": 57.21
+          "text": "조선 민립 대학 기성회가 창립되었다.",
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1919,38 +1579,28 @@
       "options": [
         {
           "number": 1,
-          "text": "13도 장의군이 서울 진공 작전을 전개하였다.",
-          "image": "assets/exams/57/option42_1.webp",
-          "source_image": true,
-          "image_width": 67.62
+          "text": "13도 창의군이 서울 진공 작전을 전개하였다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "복벽주의를 내세운 독립 의군부가 조직되었다.",
-          "image": "assets/exams/57/option42_2.webp",
-          "source_image": true,
-          "image_width": 69.66
+          "image": null
         },
         {
           "number": 3,
           "text": "김광제 등의 발의로 국채 보상 운동이 일어났다.",
-          "image": "assets/exams/57/option42_3.webp",
-          "source_image": true,
-          "image_width": 71.81
+          "image": null
         },
         {
           "number": 4,
           "text": "통상 수교 거부 의지를 담은 척화비가 건립되었다.",
-          "image": "assets/exams/57/option42_4.webp",
-          "source_image": true,
-          "image_width": 74.93
+          "image": null
         },
         {
           "number": 5,
-          "text": "민족 유일당 운동의 일환으로 신간회가 창립 되었다. 12",
-          "image": "assets/exams/57/option42_5.webp",
-          "source_image": true,
-          "image_width": 76.96
+          "text": "민족 유일당 운동의 일환으로 신간회가 창립되었다.",
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -1967,38 +1617,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 홍범도가 총사령관으로 활약하였다.",
-          "image": "assets/exams/57/option43_1.webp",
-          "source_image": true,
-          "image_width": 56.41
+          "text": "홍범도가 총사령관으로 활약하였다.",
+          "image": null
         },
         {
           "number": 2,
-          "text": "영릉가 전투에서 일본군을 격되하였다.",
-          "image": "assets/exams/57/option43_2.webp",
-          "source_image": true,
-          "image_width": 60.7
+          "text": "영릉가 전투에서 일본군을 격퇴하였다.",
+          "image": null
         },
         {
           "number": 3,
           "text": "대원 일부가 한국광복군에 합류하였다.",
-          "image": "assets/exams/57/option43_3.webp",
-          "source_image": true,
-          "image_width": 60.58
+          "image": null
         },
         {
           "number": 4,
-          "text": "도쿄에서 2•8 독립 선언을 계획하였다.",
-          "image": "assets/exams/57/option43_4.webp",
-          "source_image": true,
-          "image_width": 61.8
+          "text": "도쿄에서 2·8 독립 선언을 계획하였다.",
+          "image": null
         },
         {
           "number": 5,
           "text": "상하이에서 대동단결 선언을 발표하였다.",
-          "image": "assets/exams/57/option43_5.webp",
-          "source_image": true,
-          "image_width": 63.89
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -2015,38 +1655,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 조선상고시를 저술하였다.",
-          "image": "assets/exams/57/option44_1.webp",
-          "source_image": true,
-          "image_width": 42.55
+          "text": "조선상고시를 저술하였다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "소설 상록수를 신문에 연재하였다.",
-          "image": "assets/exams/57/option44_2.webp",
-          "source_image": true,
-          "image_width": 54.32
+          "image": null
         },
         {
           "number": 3,
           "text": "저항시 광야, 절정 등을 발표하였다.",
-          "image": "assets/exams/57/option44_3.webp",
-          "source_image": true,
-          "image_width": 56.65
+          "image": null
         },
         {
           "number": 4,
           "text": "영화 아리랑의 제작과 감독을 맡았다.",
-          "image": "assets/exams/57/option44_4.webp",
-          "source_image": true,
-          "image_width": 58.61
+          "image": null
         },
         {
           "number": 5,
-          "text": "별 해는 밤, 참회록 등의 시를 남겼다. 11",
-          "image": "assets/exams/57/option44_5.webp",
-          "source_image": true,
-          "image_width": 58.86
+          "text": "별 해는 밤, 참회록 등의 시를 남겼다.",
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -2101,38 +1731,28 @@
       "options": [
         {
           "number": 1,
-          "text": "(0 카이로 선언이 발표되었다.",
-          "image": "assets/exams/57/option46_1.webp",
-          "source_image": true,
-          "image_width": 42.61
+          "text": "카이로 선언이 발표되었다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "조선 건국 동맹이 결성되었다.",
-          "image": "assets/exams/57/option46_2.webp",
-          "source_image": true,
-          "image_width": 46.8
+          "image": null
         },
         {
           "number": 3,
           "text": "모스크바 삼국 외상 회의가 개최되었다.",
-          "image": "assets/exams/57/option46_3.webp",
-          "source_image": true,
-          "image_width": 60.32
+          "image": null
         },
         {
           "number": 4,
-          "text": "좌우 합작 위원회에서 좌우 합작 7원직을 합의하였다.",
-          "image": "assets/exams/57/option46_4.webp",
-          "source_image": true,
-          "image_width": 79.71
+          "text": "좌우 합작 위원회에서 좌우 합작 7원칙을 합의하였다.",
+          "image": null
         },
         {
           "number": 5,
-          "text": "유엔 총회에서 인구 비례에 따른 남북한 총선거를 결의하였다. 12",
-          "image": "assets/exams/57/option46_5.webp",
-          "source_image": true,
-          "image_width": 88.81
+          "text": "유엔 총회에서 인구 비례에 따른 남북한 총선거를 결의하였다.",
+          "image": null
         }
       ],
       "correct_option": 3,
@@ -2149,38 +1769,28 @@
       "options": [
         {
           "number": 1,
-          "text": "조선 형평사 장립총회가 개최된 곳이다.",
-          "image": "assets/exams/57/option47_1.webp",
-          "source_image": true,
-          "image_width": 61.8
+          "text": "조선 형평사 창립총회가 개최된 곳이다.",
+          "image": null
         },
         {
           "number": 2,
           "text": "동학 농민군과 정부 사이에 화약이 체결된 곳이다.",
-          "image": "assets/exams/57/option47_2.webp",
-          "source_image": true,
-          "image_width": 76.76
+          "image": null
         },
         {
           "number": 3,
           "text": "서희가 소손녕과의 외교 담판을 통해 확보한 곳이다.",
-          "image": "assets/exams/57/option47_3.webp",
-          "source_image": true,
-          "image_width": 79.83
+          "image": null
         },
         {
           "number": 4,
           "text": "장수왕 때 국내성에서 천도하여 도읍으로 삼은 곳이다.",
-          "image": "assets/exams/57/option47_4.webp",
-          "source_image": true,
-          "image_width": 83.02
+          "image": null
         },
         {
           "number": 5,
           "text": "유엔군과 공산군 사이의 첫 번째 정전 회담이 열린 곳이다.",
-          "image": "assets/exams/57/option47_5.webp",
-          "source_image": true,
-          "image_width": 88.54
+          "image": null
         }
       ],
       "correct_option": 5,
@@ -2198,37 +1808,27 @@
         {
           "number": 1,
           "text": "3선 개헌 반대 범국민 투쟁 위원회가 주도하였다.",
-          "image": "assets/exams/57/option48_1.webp",
-          "source_image": true,
-          "image_width": 75.41
+          "image": null
         },
         {
           "number": 2,
-          "text": "이승만이 대통령직에서 물러나는 결괴를 가져왔다.",
-          "image": "assets/exams/57/option48_2.webp",
-          "source_image": true,
-          "image_width": 77.62
+          "text": "이승만이 대통령직에서 물러나는 결과를 가져왔다.",
+          "image": null
         },
         {
           "number": 3,
-          "text": "신군부의 비상계엄 확대와 무력 진압에 싸하였다.",
-          "image": "assets/exams/57/option48_3.webp",
-          "source_image": true,
-          "image_width": 78.73
+          "text": "신군부의 비상계엄 확대와 무력 진압에 저항하였다.",
+          "image": null
         },
         {
           "number": 4,
           "text": "관련 기록물이 유네스코 세계 기록 유산으로 등재되었다.",
-          "image": "assets/exams/57/option48_4.webp",
-          "source_image": true,
-          "image_width": 86.21
+          "image": null
         },
         {
           "number": 5,
-          "text": "호헌 조지에 반발하며 호헌 철폐 등의 구호를 내세웠다. 4 • 13 12",
-          "image": "assets/exams/57/option48_5.webp",
-          "source_image": true,
-          "image_width": 89.27
+          "text": "4·13 호헌 조치에 반발하며 호헌 철폐 등의 구호를 내세웠다.",
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -2246,37 +1846,27 @@
         {
           "number": 1,
           "text": "한일 월드컵 축구 대회가 개최되었다.",
-          "image": "assets/exams/57/option49_1.webp",
-          "source_image": true,
-          "image_width": 57.21
+          "image": null
         },
         {
           "number": 2,
           "text": "농촌 근대회를 표방하는 새마을 운동이 추진되었다.",
-          "image": "assets/exams/57/option49_2.webp",
-          "source_image": true,
-          "image_width": 76.96
+          "image": null
         },
         {
           "number": 3,
           "text": "외환 위기 극복을 위한 금 모으기 운동이 전개되었다.",
-          "image": "assets/exams/57/option49_3.webp",
-          "source_image": true,
-          "image_width": 79.11
+          "image": null
         },
         {
           "number": 4,
           "text": "금융 거래 투명성을 실현하고자 금융 실명제가 시행되었다.",
-          "image": "assets/exams/57/option49_4.webp",
-          "source_image": true,
-          "image_width": 87.25
+          "image": null
         },
         {
           "number": 5,
           "text": "한미 자유 무역 협정(FTA) 체결에 반대하는 시위가 벌어졌다.",
-          "image": "assets/exams/57/option49_5.webp",
-          "source_image": true,
-          "image_width": 90.25
+          "image": null
         }
       ],
       "correct_option": 2,
@@ -2294,37 +1884,27 @@
         {
           "number": 1,
           "text": "남북 기본 합의서를 채택하였다.",
-          "image": "assets/exams/57/option50_1.webp",
-          "source_image": true,
-          "image_width": 49.91
+          "image": null
         },
         {
           "number": 2,
           "text": "남북한이 유엔에 동시 가입하였다.",
-          "image": "assets/exams/57/option50_2.webp",
-          "source_image": true,
-          "image_width": 53.02
+          "image": null
         },
         {
           "number": 3,
-          "text": "남북 공동 선언을 발표하였다. 10 • 4",
-          "image": "assets/exams/57/option50_3.webp",
-          "source_image": true,
-          "image_width": 55.18
+          "text": "10·4 남북 공동 선언을 발표하였다.",
+          "image": null
         },
         {
           "number": 4,
           "text": "남북 조절 위원회를 운영하기로 합의하였다.",
-          "image": "assets/exams/57/option50_4.webp",
-          "source_image": true,
-          "image_width": 66.55
+          "image": null
         },
         {
           "number": 5,
-          "text": "남북 이산기족 고향 방문단의 교환 방문을 최초로 성사하였다. 12",
-          "image": "assets/exams/57/option50_5.webp",
-          "source_image": true,
-          "image_width": 89.29
+          "text": "남북 이산기족 고향 방문단의 교환 방문을 최초로 성사하였다.",
+          "image": null
         }
       ],
       "correct_option": 3,

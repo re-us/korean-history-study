@@ -619,38 +619,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/72/option17_1.webp",
-          "source_image": true,
-          "image_width": 29.21
+          "text": "",
+          "image": "assets/exams/72/picture17_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/72/option17_2.webp",
-          "source_image": true,
-          "image_width": 29.21
+          "text": "",
+          "image": "assets/exams/72/picture17_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/72/option17_3.webp",
-          "source_image": true,
-          "image_width": 29.21
+          "text": "",
+          "image": "assets/exams/72/picture17_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/72/option17_4.webp",
-          "source_image": true,
-          "image_width": 29.21
+          "text": "",
+          "image": "assets/exams/72/picture17_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/72/option17_5.webp",
-          "source_image": true,
-          "image_width": 29.21
+          "text": "",
+          "image": "assets/exams/72/picture17_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 3,
@@ -857,38 +852,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/72/option23_1.webp",
-          "source_image": true,
-          "image_width": 31.1
+          "text": "",
+          "image": "assets/exams/72/picture23_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/72/option23_2.webp",
-          "source_image": true,
-          "image_width": 31.1
+          "text": "",
+          "image": "assets/exams/72/picture23_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/72/option23_3.webp",
-          "source_image": true,
-          "image_width": 31.1
+          "text": "",
+          "image": "assets/exams/72/picture23_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/72/option23_4.webp",
-          "source_image": true,
-          "image_width": 31.1
+          "text": "",
+          "image": "assets/exams/72/picture23_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/72/option23_5.webp",
-          "source_image": true,
-          "image_width": 31.1
+          "text": "",
+          "image": "assets/exams/72/picture23_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 4,

@@ -163,38 +163,28 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/58/option05_1.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(가)",
+          "image": null
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/58/option05_2.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(나)",
+          "image": null
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/58/option05_3.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(다)",
+          "image": null
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/58/option05_4.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(라)",
+          "image": null
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/58/option05_5.webp",
-          "source_image": true,
-          "image_width": 10.91
+          "text": "(마)",
+          "image": null
         }
       ],
       "correct_option": 4,
@@ -591,38 +581,33 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/58/option16_1.webp",
-          "source_image": true,
-          "image_width": 27.47
+          "text": "",
+          "image": "assets/exams/58/picture16_1.webp",
+          "picture_only": true
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/58/option16_2.webp",
-          "source_image": true,
-          "image_width": 27.47
+          "text": "",
+          "image": "assets/exams/58/picture16_2.webp",
+          "picture_only": true
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/58/option16_3.webp",
-          "source_image": true,
-          "image_width": 27.47
+          "text": "",
+          "image": "assets/exams/58/picture16_3.webp",
+          "picture_only": true
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/58/option16_4.webp",
-          "source_image": true,
-          "image_width": 27.47
+          "text": "",
+          "image": "assets/exams/58/picture16_4.webp",
+          "picture_only": true
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/58/option16_5.webp",
-          "source_image": true,
-          "image_width": 27.47
+          "text": "",
+          "image": "assets/exams/58/picture16_5.webp",
+          "picture_only": true
         }
       ],
       "correct_option": 3,
@@ -1589,38 +1574,28 @@
       "options": [
         {
           "number": 1,
-          "text": "1번 원문 보기",
-          "image": "assets/exams/58/option42_1.webp",
-          "source_image": true,
-          "image_width": 10.65
+          "text": "(가)",
+          "image": null
         },
         {
           "number": 2,
-          "text": "2번 원문 보기",
-          "image": "assets/exams/58/option42_2.webp",
-          "source_image": true,
-          "image_width": 10.65
+          "text": "(나)",
+          "image": null
         },
         {
           "number": 3,
-          "text": "3번 원문 보기",
-          "image": "assets/exams/58/option42_3.webp",
-          "source_image": true,
-          "image_width": 10.65
+          "text": "(다)",
+          "image": null
         },
         {
           "number": 4,
-          "text": "4번 원문 보기",
-          "image": "assets/exams/58/option42_4.webp",
-          "source_image": true,
-          "image_width": 10.65
+          "text": "(라)",
+          "image": null
         },
         {
           "number": 5,
-          "text": "5번 원문 보기",
-          "image": "assets/exams/58/option42_5.webp",
-          "source_image": true,
-          "image_width": 10.65
+          "text": "(마)",
+          "image": null
         }
       ],
       "correct_option": 3,

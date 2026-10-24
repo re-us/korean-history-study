@@ -12,9 +12,20 @@ async function loadEras(){
 }
 function drawStudyFeatures(){
  const mocks=readMocks();
- el('mockList').innerHTML=mocks.map(m=>{const saved=readState(m.id),done=Object.values(saved.attempts).filter(a=>a.length).length;return `<div class="item"><div><b>${escape(m.name)}</b><p class="muted">50문항 · 100점 · ${done}문항 완료</p></div><button class="outline" onclick="openMock('${m.id}')">이어서 풀기</button></div>`}).join('');
+ el('mockList').innerHTML=mocks.map(m=>{const saved=readState(m.id),done=Object.values(saved.attempts).filter(a=>a.length).length;return `<div class="item"><div><b>${escape(m.name)}</b><p class="muted">50문항 · 100점 · ${done}문항 완료</p></div><div class="review-actions"><button class="outline" onclick="openMock('${m.id}')">이어서 풀기</button><button class="outline" onclick="deleteMock('${m.id}')" aria-label="${escape(m.name)} 삭제">삭제</button></div></div>`}).join('');
  const total=[...CATALOG.map(e=>e.round),...mocks.map(m=>m.id)].reduce((n,id)=>n+STUDY_TOOLS.wrongEntries(readState(id)).length,0);
  el('allWrongCount').textContent=`${total}개 복습 필요`;
+}
+function deleteMock(id){
+ const mock=readMocks().find(m=>m.id===id);if(!mock)return;
+ if(!window.confirm(`${mock.name}을 삭제하시겠습니까?\n이 모의고사의 풀이 기록·오답·북마크도 함께 삭제되며 되돌릴 수 없습니다.\n기존 기출 회차와 다른 모의고사 기록은 유지됩니다.`))return;
+ const previous=localStorage.getItem(MOCK_CATALOG_KEY);
+ try{
+  const rows=JSON.parse(previous);localStorage.setItem(MOCK_CATALOG_KEY,JSON.stringify(rows.filter(m=>m?.id!==id)));
+  localStorage.removeItem(`khistory${id}_mvp_v1`);examLoadToken++;
+  if(round===id)activateExam(80,examCache.get(80),'제80회 심화');
+  view('library');
+ }catch{try{localStorage.setItem(MOCK_CATALOG_KEY,previous)}catch{}el('mockStatus').textContent='삭제하지 못했습니다. 기기의 저장소 접근 설정을 확인해 주세요.'}
 }
 async function createMock(){
  if(creatingMock)return;creatingMock=true;const token=++examLoadToken,status=el('mockStatus');el('createMock').disabled=true;status.textContent='시대별 분포와 배점을 맞추고 있습니다…';
@@ -25,7 +36,8 @@ async function createMock(){
   if(token!==examLoadToken)return;
   const result=STUDY_TOOLS.generate(pool,metadata.eras.length);
   const id=`mock-${Date.now()}-${Math.random().toString(36).slice(2,10)||'0'}`,mocks=readMocks();
-  const mock={id,name:`자체 모의고사 ${mocks.length+1}`,createdAt:new Date().toISOString(),refs:result.questions.map(q=>[q.exam_round,q.question_number]),counts:result.counts,poolSize:result.poolSize};
+  const sequence=Math.max(0,...mocks.map(m=>Number(m.name.match(/(\d+)$/)?.[1])||0))+1;
+  const mock={id,name:`자체 모의고사 ${sequence}`,createdAt:new Date().toISOString(),refs:result.questions.map(q=>[q.exam_round,q.question_number]),counts:result.counts,poolSize:result.poolSize};
   // Save the immutable source references before opening; existing exams keep their keys.
   localStorage.setItem(MOCK_CATALOG_KEY,JSON.stringify([...mocks,mock]));
   await openMock(id);status.textContent='';

@@ -5,7 +5,7 @@ pixels and crop regressions; it cannot prove that the selected crop is semantica
 the right region. Shared source regions are checked using reviewed geometry.
 """
 import json
-from PIL import Image, ImageChops, ImageStat
+from PIL import Image, ImageChops, ImageStat, ImageDraw
 from import_exams import ROOT, CACHE
 
 raw=json.loads((CACHE/'extracted.json').read_text(encoding='utf8'))
@@ -48,15 +48,15 @@ for r in range(57,80):
             for piece in pieces:expected.paste(piece,(0,y));y+=piece.height+16
         else:expected=crop(image,source['_material'],scale)
         compare(expected,q['material_image'])
-        if r>=70:continue  # Earlier choice exports retain their original crop policy.
         markers=source['_markers'];left,top,right,bottom=source['_bounds']
         ys=sorted(set(round(w['y']) for w in markers));ys=[y for i,y in enumerate(ys) if i==0 or y-ys[i-1]>12]
         for k,option in enumerate(q['options']):
-            if not option.get('source_image'):continue
+            if not option.get('picture_only'):continue
             w=markers[k];row=min(ys,key=lambda y:abs(y-w['y']))
             peers=sorted([x for x in markers if abs(x['y']-row)<12],key=lambda x:x['x']);pos=peers.index(w)
             bounds=[w['x']-3,w['y']-4,peers[pos+1]['x']-4 if pos+1<len(peers) else right-1,next((y-5 for y in ys if y>row+12),min(bottom-2,meta['height']-(100 if meta['width']>740 else 70)))]
-            compare(crop(image,bounds,scale),option['image'])
+            picture=image.copy();ImageDraw.Draw(picture).rectangle(tuple(round(v*scale) for v in [w['x']-4,w['y']-4,w['x']+w['w']+4,w['y']+w['h']+4]),fill='white')
+            compare(crop(picture,bounds,scale),option['image'])
     for image in pages.values():image.close()
     print(r,'checked',flush=True)
 (CACHE/'source-audit.json').write_text(json.dumps({'checked':checked,'issues':issues},ensure_ascii=False,indent=2),encoding='utf8')
